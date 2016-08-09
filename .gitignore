@@ -4,3 +4,4 @@
 Makefile*
 */debug/*
 */release/*
+moc_*

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/pre">
+        <file>Winter.jpg</file>
+    </qresource>
+</RCC>
