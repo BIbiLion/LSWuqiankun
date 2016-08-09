@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/MySerialPort" >
+        <file>Resources/icon_big.bmp</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\ParseWorker.o
+./debug\SerialCom.o
+./debug\mainwindow.o
+./debug\mycombox.o
+./debug\mycustonevent.o
+./debug\qrc_resources.o
+./debug\moc_ParseWorker.o
+./debug\moc_SerialCom.o
+./debug\moc_mainwindow.o
+);

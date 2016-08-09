@@ -1,0 +1,42 @@
+UCHAR chReadData[2][READBUFFER];
+	unsigned int uiReceived[2];
+
+	for(int k=0;k<2;k++)
+	{
+		uiReceived[k] = (int)theApp.m_Com[k].GetCOMData(chReadData[k]);
+		if(uiReceived[k]== 0)
+		{
+			//return FALSE;		
+		}
+		memcpy(pch[k],chReadData[k],uiReceived[k]);    //将?数簓据Y置?于瞔hData[]中D
+
+	}
+
+
+	//1串?口ú解a析?
+	int i=0;
+	int j = uiRemainLength[0] + uiReceived[0] - FRAME_LENGTH;
+	while(i<=j)
+	{
+		UCHAR *pData = &chData[0][i];
+		if((pData[0] == 0x68) && (pData[1] == 0x0D)&&(pData[2] == 0x00)&&(pData[3] == 0x84))
+		{
+			ulFrameNum[0]++;
+			ProcessFrame((char*)&pData[4] ,0);
+			i += FRAME_LENGTH;				
+			continue;
+		}
+		else
+		{
+			i++;
+			ulFrameErr[0] ++;				
+		}
+	}
+	uiRemainLength[0] += uiReceived[0] - i;
+		
+	if(uiRemainLength[0] != 0)
+	{
+		memcpy(chReadData[0],&chData[0][i],uiRemainLength[0]);
+		memcpy(chData[0],chReadData[0],uiRemainLength[0]);
+	}
+	pch[0] = &chData[0][uiRemainLength[0]];

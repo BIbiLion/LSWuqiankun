@@ -1,0 +1,28 @@
+void SerialCom::slot_readData()
+{
+    if(!m_serialCom->bytesAvailable())
+        return;
+    QByteArray bytesTemp = m_serialCom->readAll();
+    //qDebug()<<bytesTemp;
+    //return;
+    m_serialBuff += bytesTemp;
+    while(m_serialBuff.length() != 0)
+    {
+        bool bExist = false;
+        unsigned char buff[] = {0x0D, 0x0A};
+        int length = 0;
+        while((length = m_serialBuff.indexOf(QByteArray((char*)buff,
+                                                     sizeof(buff)/sizeof(char)))) >= 0)
+        {
+            bExist = true;
+            QByteArray data = m_serialBuff.left(length);
+            //std::cout<<data.toStdString()<<endl;
+            // 将数据push_back进上行数据分析队列中
+            gParseQueue.push_back(data);
+            // 取出数据的同时，对缓冲区数据做删除处理
+            m_serialBuff.remove(0, length+2);
+        }
+        if(!bExist)
+            break;
+    }
+}

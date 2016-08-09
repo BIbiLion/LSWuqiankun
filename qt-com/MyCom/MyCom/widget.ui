@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>591</width>
+    <height>609</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BWMS--Test</string>
+  </property>
+  <widget class="QLabel" name="openlabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="openStatuslabel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="SysTimelabel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>381</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">gridline-color: rgb(85, 170, 255);
+background-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>时间</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="jieshoulabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>接收到的数据：</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="ReadtextBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>321</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid rgb(85, 255, 0); 
+border-radius: 3px; 
+background-color: rgb(255, 236, 216)
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fasonglabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送的数据：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="SendlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>190</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid rgb(85, 255, 0); </string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>85</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="SettingpushButton">
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover:!pressed
+{
+   color: white;
+  background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+  border-width: 1px;
+  border-color: #339;
+  border-style: solid;
+  border-radius: 7;
+  padding: 3px;
+  font-size: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 13px;
+  max-height: 13px;
+}</string>
+    </property>
+    <property name="text">
+     <string>设置串口</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OpenpushButton">
+    <property name="styleSheet">
+     <string notr="true"> QPushButton:hover:!pressed
+{
+   color: white;
+  background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+  border-width: 1px;
+  border-color: #339;
+  border-style: solid;
+  border-radius: 7;
+  padding: 3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 13px;
+  max-height: 13px;
+}</string>
+    </property>
+    <property name="text">
+     <string>打开串口</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SendpushButton">
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover:!pressed
+{
+   color: white;
+  background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+  border-width: 1px;
+  border-color: #339;
+  border-style: solid;
+  border-radius: 7;
+  padding: 3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 13px;
+  max-height: 13px;
+}</string>
+    </property>
+    <property name="text">
+     <string>发 送</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ReadpushButton">
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover:!pressed
+{
+   color: white;
+  background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+  border-width: 1px;
+  border-color: #339;
+  border-style: solid;
+  border-radius: 7;
+  padding: 3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 13px;
+  max-height: 13px;
+}</string>
+    </property>
+    <property name="text">
+     <string>读 取</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TestpushButton">
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover:!pressed
+{
+   color: white;
+  background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+  border-width: 1px;
+  border-color: #339;
+  border-style: solid;
+  border-radius: 7;
+  padding: 3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 13px;
+  max-height: 13px;
+}</string>
+    </property>
+    <property name="text">
+     <string>清除界面</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ClosepushButton">
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover:!pressed
+{
+   color: white;
+  background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+  border-width: 1px;
+  border-color: #339;
+  border-style: solid;
+  border-radius: 7;
+  padding: 3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 13px;
+  max-height: 13px;
+}</string>
+    </property>
+    <property name="text">
+     <string>关闭软件</string>
+    </property>
+   </widget>
+  </widget>
+  <zorder>splitter_2</zorder>
+  <zorder>openlabel</zorder>
+  <zorder>openStatuslabel</zorder>
+  <zorder>SysTimelabel</zorder>
+  <zorder>jieshoulabel</zorder>
+  <zorder>ReadtextBrowser</zorder>
+  <zorder>fasonglabel</zorder>
+  <zorder>SendlineEdit</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

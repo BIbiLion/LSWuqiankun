@@ -1,0 +1,80 @@
+void MainWindow ::ReadData()
+
+{
+  qDebug() << "Read Data Now";
+  QByteArray data = CurrentSerialPort->readLine();
+
+  foreach(int number ,data )
+  {
+    ReceiveBuffer.enqueue(number);
+  }
+
+  if(ReceiveBuffer.size()>15)
+  {
+      emit ReceiveBufferReady();
+  }
+
+}
+
+
+void MainWindow :: OutPutData()
+{
+    ReceiveNumber ++;
+    QByteArray OutPutArray;
+    while(ReceiveBuffer[0]!=126)
+    {
+        ReceiveBuffer.dequeue();
+    }
+
+    OutPutArray.append(ReceiveBuffer.dequeue());
+    while(ReceiveBuffer[0]!=126)
+    {
+        if(ReceiveBuffer[0] == 125)
+        {
+            qDebug() << ReceiveBuffer.dequeue();
+            if(ReceiveBuffer[0]==93)
+            {
+              OutPutArray.append(125);
+              qDebug() <<  ReceiveBuffer.dequeue();
+
+            }
+            if (ReceiveBuffer[0] == 94)
+            {
+                OutPutArray.append(126);
+              qDebug() <<  ReceiveBuffer.dequeue();
+            }
+        }
+        else
+        {
+            OutPutArray.append(ReceiveBuffer.dequeue());
+        }
+    }
+    OutPutArray.append(ReceiveBuffer.dequeue());
+
+    //ui->plainTextEdit_Result->insertPlainText("\n");
+    if(OutPutArray.size() >= 15)
+    {
+        ui->plainTextEdit_Result->insertPlainText("\n");
+    foreach(quint8 number,OutPutArray)
+         {
+             ui->plainTextEdit_Result->insertPlainText(" "+QString ::number(number));
+         }
+    }
+    // simple use the length to confirm the receive packet ,
+    //should plus CRC later
+
+    CRC_result_uint16 = crc_packet(OutPutArray,15);
+    CRC_result_uint8[0] = GetHighByte(CRC_result_uint16);
+    CRC_result_uint8[1] = GetLowByte(CRC_result_uint16);
+
+      if(OutPutArray.size() >= 15)
+      {
+          RightNumber++ ;
+      }
+
+    //Showing the Statistic Result
+      receitem = ui->listWidget->item(0);
+      rightitem = ui->listWidget->item(1);
+      receitem->setText("ReceiveNumber: " + QString ::number(ReceiveNumber));
+      rightitem->setText("Right Receive: " + QString ::number(RightNumber));
+}

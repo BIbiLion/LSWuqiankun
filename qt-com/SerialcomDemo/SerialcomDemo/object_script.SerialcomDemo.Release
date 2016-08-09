@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\ParseWorker.o
+./release\SerialCom.o
+./release\mainwindow.o
+./release\mycombox.o
+./release\mycustonevent.o
+./release\qrc_resources.o
+./release\moc_ParseWorker.o
+./release\moc_SerialCom.o
+./release\moc_mainwindow.o
+);

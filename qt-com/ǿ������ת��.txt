@@ -1,0 +1,9 @@
+那就是直接的强制转换了：
+float fValue;
+BYTE  btValue[4];
+
+1、float→byte：
+   memcpy(btValue, (BYTE*)&fValue, 4);
+
+2、byte→float：
+   fValue = *((float*)&btValue[0]); 
