@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>468</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>111</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="verticalSpacing">
+          <number>12</number>
+         </property>
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="lineEdit_2"/>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="lineEdit_5"/>
+         </item>
+         <item row="8" column="1">
+          <widget class="QLineEdit" name="lineEdit_49"/>
+         </item>
+         <item row="7" column="2">
+          <widget class="QLineEdit" name="lineEdit_51"/>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="lineEdit_9"/>
+         </item>
+         <item row="4" column="3">
+          <widget class="QLineEdit" name="lineEdit_6"/>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="lineEdit_3"/>
+         </item>
+         <item row="8" column="4">
+          <widget class="QLineEdit" name="lineEdit_53"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item row="7" column="4">
+          <widget class="QLineEdit" name="lineEdit_48"/>
+         </item>
+         <item row="5" column="3">
+          <widget class="QLineEdit" name="lineEdit_45"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLineEdit" name="lineEdit_7"/>
+         </item>
+         <item row="7" column="3">
+          <widget class="QLineEdit" name="lineEdit_47"/>
+         </item>
+         <item row="7" column="1">
+          <widget class="QLineEdit" name="lineEdit_10"/>
+         </item>
+         <item row="5" column="4">
+          <widget class="QLineEdit" name="lineEdit_46"/>
+         </item>
+         <item row="8" column="2">
+          <widget class="QLineEdit" name="lineEdit_50"/>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLineEdit" name="lineEdit_11"/>
+         </item>
+         <item row="4" column="4">
+          <widget class="QLineEdit" name="lineEdit_8"/>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="lineEdit_4"/>
+         </item>
+         <item row="8" column="3">
+          <widget class="QLineEdit" name="lineEdit_52"/>
+         </item>
+         <item row="9" column="2" colspan="2">
+          <widget class="QPushButton" name="pushButton">
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="contextMenuPolicy">
+            <enum>Qt::NoContextMenu</enum>
+           </property>
+           <property name="text">
+            <string>clickedME</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="3" column="2">
+          <widget class="QLineEdit" name="lineEdit_12"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLineEdit" name="lineEdit_13"/>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="lineEdit_14"/>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="lineEdit_15"/>
+         </item>
+         <item row="3" column="3">
+          <widget class="QLineEdit" name="lineEdit_16"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="lineEdit_17"/>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLineEdit" name="lineEdit_18"/>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="lineEdit_19"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit_20"/>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="lineEdit_21"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="text">
+            <string>clickedMe</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="lineEdit_22"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="3" column="2">
+          <widget class="QLineEdit" name="lineEdit_23"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLineEdit" name="lineEdit_24"/>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="lineEdit_25"/>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="lineEdit_26"/>
+         </item>
+         <item row="3" column="3">
+          <widget class="QLineEdit" name="lineEdit_27"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="lineEdit_28"/>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLineEdit" name="lineEdit_29"/>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="lineEdit_30"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit_31"/>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="lineEdit_32"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>clickedMe</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="lineEdit_33"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="3" column="2">
+          <widget class="QLineEdit" name="lineEdit_34"/>
+         </item>
+         <item row="1" column="4">
+          <widget class="QLineEdit" name="lineEdit_35"/>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="lineEdit_36"/>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="lineEdit_37"/>
+         </item>
+         <item row="3" column="3">
+          <widget class="QLineEdit" name="lineEdit_38"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="lineEdit_39"/>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLineEdit" name="lineEdit_40"/>
+         </item>
+         <item row="1" column="3">
+          <widget class="QLineEdit" name="lineEdit_41"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit_42"/>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="lineEdit_43"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>clickedMe</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="lineEdit_44"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

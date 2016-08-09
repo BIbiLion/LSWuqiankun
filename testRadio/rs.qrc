@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>信息等-绿色.ico</file>
+        <file>信息灯-灰色.ico</file>
+        <file>信息等-红色.ico</file>
+        <file>信息等-黄色.ico</file>
+    </qresource>
+</RCC>

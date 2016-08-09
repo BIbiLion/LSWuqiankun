@@ -17,7 +17,7 @@ void UdpObject::startThread()
     int messageNo = 1;
     QByteArray datagram = "Broadcast message " + QByteArray::number(messageNo)+QByteArray("nice LSGK");
     qint64 _sendedDate= udpSocket->writeDatagram(datagram.data(), datagram.size(),
-                                                 QHostAddress::Broadcast, 45454);
+                                                 QHostAddress::LocalHost, 45454);
     emit end();
 }
 
