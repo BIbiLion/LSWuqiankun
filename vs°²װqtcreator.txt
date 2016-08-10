@@ -1,0 +1,50 @@
+configure -platform win32-msvc2005 -release  -no-webkit -no-qt3support -nomake docs -nomake demos  -nomake examples
+configure -no-stl -no-dsp -vcproj 
+①src\gui\kernel\qclipboard_win.cpp 
+static bool isProcessBeingDebugged(HWND hwnd)
+{
+    DWORD pid = 0;
+    if (!GetWindowThreadProcessId(hwnd, &pid) || !pid)
+        return false;
+        
+    // Exclude VS 2005
+#if defined(_MSC_VER) && _MSC_VER <= 1400
+    Q_UNUSED(pid);
+    return false;
+#else
+    const HANDLE processHandle = OpenProcess(PROCESS_QUERY_INFORMATION, FALSE, pid);
+    if (!processHandle)
+       return false;
+    BOOL debugged = FALSE;
+    CheckRemoteDebuggerPresent(processHandle, &debugged);
+    CloseHandle(processHandle);
+    return debugged != FALSE;
+#endif
+}
+
+
+
+2.解决方法：
+修改 src\3rdparty\webkit\Source\WebCore\platform下的DefaultLocalizationStrategy.cpp，定位到327行，将本行
+return WEB_UI_STRING("Look Up "<selection>"", "Look Up context menu item with selected word").replace("<selection>", truncatedStringForLookupMenuItem(selectedString));
+替换成
+return WEB_UI_STRING("Look Up \"<selection>\"", "Look Up context menu item with selected word").replace("<selection>", truncatedStringForLookupMenuItem(selectedString));
+并注意把那些看起来很特别的双引号改成正常的双引号!!!
+
+07.NMAKE : fatal error U1077: 'cd' : return code '0x2'
+08.Stop.
+api/qscriptextensionplugin.h(43): Error: Undefined interface
+NMAKE : fatal error U1077: 'C:/Qt/2009.05/qt/bin/moc.exe' : return code '0x1'
+Stop.
+NMAKE : fatal error U1077: '"d:/Program Files/Microsoft Visual Studio 9.0/VC/BIN
+/nmake.exe"' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: 'cd' : return code '0x2'
+Stop.
+
+解决方法:
+
+qt/src/script/tmp/moc/debug_shared/mocinclude.tmp
+qt/src/script/tmp/moc/release_shared/mocinclude.tmp
+
+删除，然后继续编译。
