@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/a">
+        <file alias="a.bmp">D:/vcredist.bmp</file>
+    </qresource>
+</RCC>
