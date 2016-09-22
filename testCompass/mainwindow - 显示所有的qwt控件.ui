@@ -14,6 +14,26 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
+   <widget class="QKeySequenceEdit" name="keySequenceEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>120</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QwtPlot" name="qwtPlot">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>400</width>
+      <height>200</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QwtScaleWidget" name="ScaleWidget">
     <property name="geometry">
      <rect>
@@ -33,8 +53,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>30</y>
+      <x>480</x>
+      <y>60</y>
       <width>200</width>
       <height>200</height>
      </rect>
@@ -47,6 +67,16 @@
     </property>
     <property name="lineWidth">
      <number>4</number>
+    </property>
+   </widget>
+   <widget class="QwtCounter" name="Counter">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>90</y>
+      <width>67</width>
+      <height>20</height>
+     </rect>
     </property>
    </widget>
    <widget class="QwtDial" name="Dial">
@@ -65,71 +95,62 @@
    <widget class="QwtThermo" name="Thermo">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>69</y>
+      <x>800</x>
+      <y>330</y>
       <width>60</width>
-      <height>461</height>
+      <height>250</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true"/>
+   </widget>
+   <widget class="QwtWheel" name="Wheel">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>80</y>
+      <width>64</width>
+      <height>24</height>
+     </rect>
     </property>
-    <property name="lowerBound">
-     <double>-90.000000000000000</double>
+   </widget>
+   <widget class="QwtKnob" name="Knob">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>360</y>
+      <width>150</width>
+      <height>150</height>
+     </rect>
     </property>
-    <property name="upperBound">
-     <double>90.000000000000000</double>
-    </property>
-    <property name="scaleMaxMajor">
-     <number>10</number>
-    </property>
-    <property name="originMode">
-     <enum>QwtThermo::OriginCustom</enum>
-    </property>
-    <property name="alarmEnabled">
-     <bool>false</bool>
+   </widget>
+   <widget class="QwtTextLabel" name="TextLabel">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>230</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
     </property>
    </widget>
    <widget class="QwtSlider" name="Slider">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>260</y>
-      <width>61</width>
+      <x>960</x>
+      <y>300</y>
+      <width>60</width>
       <height>250</height>
      </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(101, 222, 255);</string>
-    </property>
-    <property name="lowerBound">
-     <double>-90.000000000000000</double>
-    </property>
-    <property name="upperBound">
-     <double>90.000000000000000</double>
-    </property>
-    <property name="scaleMaxMajor">
-     <number>20</number>
-    </property>
-    <property name="scaleMaxMinor">
-     <number>5</number>
-    </property>
-    <property name="invertedControls">
-     <bool>false</bool>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
-    </property>
-    <property name="scalePosition">
-     <enum>QwtSlider::LeadingScale</enum>
-    </property>
-    <property name="groove">
-     <bool>false</bool>
     </property>
    </widget>
    <zorder>Dial</zorder>
    <zorder>ScaleWidget</zorder>
+   <zorder>keySequenceEdit</zorder>
+   <zorder>qwtPlot</zorder>
+   <zorder>Counter</zorder>
    <zorder>Thermo</zorder>
+   <zorder>Wheel</zorder>
+   <zorder>Knob</zorder>
+   <zorder>TextLabel</zorder>
    <zorder>Slider</zorder>
    <zorder>Compass</zorder>
   </widget>
@@ -156,6 +177,11 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
+   <class>QwtPlot</class>
+   <extends>QFrame</extends>
+   <header>qwt_plot.h</header>
+  </customwidget>
+  <customwidget>
    <class>QwtScaleWidget</class>
    <extends>QWidget</extends>
    <header>qwt_scale_widget.h</header>
@@ -166,9 +192,19 @@
    <header>qwt_compass.h</header>
   </customwidget>
   <customwidget>
+   <class>QwtCounter</class>
+   <extends>QWidget</extends>
+   <header>qwt_counter.h</header>
+  </customwidget>
+  <customwidget>
    <class>QwtDial</class>
    <extends>QWidget</extends>
    <header>qwt_dial.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QwtKnob</class>
+   <extends>QWidget</extends>
+   <header>qwt_knob.h</header>
   </customwidget>
   <customwidget>
    <class>QwtSlider</class>
@@ -179,6 +215,16 @@
    <class>QwtThermo</class>
    <extends>QWidget</extends>
    <header>qwt_thermo.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QwtWheel</class>
+   <extends>QWidget</extends>
+   <header>qwt_wheel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QwtTextLabel</class>
+   <extends>QFrame</extends>
+   <header>qwt_text_label.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

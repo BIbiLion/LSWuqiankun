@@ -1,6 +1,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+#include "mythermo.h"
+#include <QTimer>
+#include "testcom_dial_thermo.h"
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -9,7 +12,38 @@ MainWindow::MainWindow(QWidget *parent) :
 
     setCompass();
     //ui->Dial->hide();
-    setDial();
+    //setDial();
+    ui->Slider->setValue(20.0);
+    ui->Thermo->setValue(20.0);
+
+   mm = new myThermo;
+    mm->setValue(45);
+    mm->setScalePosition(QwtThermo::LeadingScale);
+    mm->setFixedSize(30,500);
+    mm->show();
+    QTimer * tt= new QTimer;
+    connect(tt,SIGNAL(timeout()),this,SLOT(changgeValue()));
+    m_value=0;
+    tt->start(1000);
+
+
+
+
+    testCom_dial_thermo * tdt= new testCom_dial_thermo;
+    tdt->setBaseSize(600,600);
+    tdt->show();
+
+}
+
+
+void MainWindow::changgeValue()
+{
+    ++m_value;
+    if((m_value>100)||(m_value<0) )
+    {
+        m_value=0;
+    }
+    mm->setValue(m_value);
 }
 
 MainWindow::~MainWindow()

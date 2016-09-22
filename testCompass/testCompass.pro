@@ -25,11 +25,20 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = testCompass
 TEMPLATE = app
+#TEMPLATE = subdirs
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    mythermo.cpp \
+    testcom_dial_thermo.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    mythermo.h \
+    testcom_dial_thermo.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    testcom_dial_thermo.ui
+
+SUBDIRS += \
+    ../com_dail_scalWidget

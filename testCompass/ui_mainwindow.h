@@ -14,22 +14,16 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHeaderView>
-#include <QtWidgets/QKeySequenceEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 #include "qwt_compass.h"
-#include "qwt_counter.h"
 #include "qwt_dial.h"
-#include "qwt_knob.h"
-#include "qwt_plot.h"
 #include "qwt_scale_widget.h"
 #include "qwt_slider.h"
-#include "qwt_text_label.h"
 #include "qwt_thermo.h"
-#include "qwt_wheel.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -37,16 +31,10 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QKeySequenceEdit *keySequenceEdit;
-    QwtPlot *qwtPlot;
     QwtScaleWidget *ScaleWidget;
     QwtCompass *Compass;
-    QwtCounter *Counter;
     QwtDial *Dial;
     QwtThermo *Thermo;
-    QwtWheel *Wheel;
-    QwtKnob *Knob;
-    QwtTextLabel *TextLabel;
     QwtSlider *Slider;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
@@ -59,45 +47,48 @@ public:
         MainWindow->resize(1077, 677);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        keySequenceEdit = new QKeySequenceEdit(centralWidget);
-        keySequenceEdit->setObjectName(QStringLiteral("keySequenceEdit"));
-        keySequenceEdit->setGeometry(QRect(180, 120, 113, 20));
-        qwtPlot = new QwtPlot(centralWidget);
-        qwtPlot->setObjectName(QStringLiteral("qwtPlot"));
-        qwtPlot->setGeometry(QRect(20, 20, 400, 200));
         ScaleWidget = new QwtScaleWidget(centralWidget);
         ScaleWidget->setObjectName(QStringLiteral("ScaleWidget"));
-        ScaleWidget->setGeometry(QRect(90, 380, 60, 141));
+        ScaleWidget->setGeometry(QRect(200, 300, 60, 101));
         ScaleWidget->setLayoutDirection(Qt::RightToLeft);
         Compass = new QwtCompass(centralWidget);
         Compass->setObjectName(QStringLiteral("Compass"));
-        Compass->setGeometry(QRect(260, 330, 200, 200));
+        Compass->setEnabled(true);
+        Compass->setGeometry(QRect(710, 30, 200, 200));
         Compass->setScaleMaxMinor(2);
         Compass->setScaleStepSize(0.1);
         Compass->setLineWidth(4);
-        Counter = new QwtCounter(centralWidget);
-        Counter->setObjectName(QStringLiteral("Counter"));
-        Counter->setGeometry(QRect(940, 90, 67, 20));
         Dial = new QwtDial(centralWidget);
         Dial->setObjectName(QStringLiteral("Dial"));
-        Dial->setGeometry(QRect(480, 70, 200, 200));
+        Dial->setGeometry(QRect(140, 250, 200, 200));
         Dial->setLineWidth(4);
         Thermo = new QwtThermo(centralWidget);
         Thermo->setObjectName(QStringLiteral("Thermo"));
-        Thermo->setGeometry(QRect(800, 330, 60, 250));
-        Wheel = new QwtWheel(centralWidget);
-        Wheel->setObjectName(QStringLiteral("Wheel"));
-        Wheel->setGeometry(QRect(800, 80, 64, 24));
-        Knob = new QwtKnob(centralWidget);
-        Knob->setObjectName(QStringLiteral("Knob"));
-        Knob->setGeometry(QRect(560, 360, 150, 150));
-        TextLabel = new QwtTextLabel(centralWidget);
-        TextLabel->setObjectName(QStringLiteral("TextLabel"));
-        TextLabel->setGeometry(QRect(140, 230, 100, 20));
+        Thermo->setGeometry(QRect(620, 69, 60, 461));
+        Thermo->setStyleSheet(QStringLiteral(""));
+        Thermo->setLowerBound(-90);
+        Thermo->setUpperBound(90);
+        Thermo->setScaleMaxMajor(10);
+        Thermo->setOriginMode(QwtThermo::OriginCustom);
+        Thermo->setAlarmEnabled(false);
         Slider = new QwtSlider(centralWidget);
         Slider->setObjectName(QStringLiteral("Slider"));
-        Slider->setGeometry(QRect(960, 300, 60, 250));
+        Slider->setGeometry(QRect(760, 260, 61, 250));
+        Slider->setStyleSheet(QStringLiteral("background-color: rgb(101, 222, 255);"));
+        Slider->setLowerBound(-90);
+        Slider->setUpperBound(90);
+        Slider->setScaleMaxMajor(20);
+        Slider->setScaleMaxMinor(5);
+        Slider->setInvertedControls(false);
+        Slider->setOrientation(Qt::Vertical);
+        Slider->setScalePosition(QwtSlider::LeadingScale);
+        Slider->setGroove(false);
         MainWindow->setCentralWidget(centralWidget);
+        Dial->raise();
+        ScaleWidget->raise();
+        Thermo->raise();
+        Slider->raise();
+        Compass->raise();
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 1077, 23));
