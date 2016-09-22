@@ -54,32 +54,32 @@ MainWindow::MainWindow(QWidget *parent) :
   ui->setupUi(this);
   setGeometry(400, 250, 542, 390);
   
-  setupDemo(0);
-  //setupPlayground(ui->customPlot);
-  // 0:  setupQuadraticDemo(ui->customPlot);
-  // 1:  setupSimpleDemo(ui->customPlot);
-  // 2:  setupSincScatterDemo(ui->customPlot);
-  // 3:  setupScatterStyleDemo(ui->customPlot);
-  // 4:  setupScatterPixmapDemo(ui->customPlot);
-  // 5:  setupLineStyleDemo(ui->customPlot);
-  // 6:  setupDateDemo(ui->customPlot);
-  // 7:  setupTextureBrushDemo(ui->customPlot);
-  // 8:  setupMultiAxisDemo(ui->customPlot);
-  // 9:  setupLogarithmicDemo(ui->customPlot);
-  // 10: setupRealtimeDataDemo(ui->customPlot);
-  // 11: setupParametricCurveDemo(ui->customPlot);
-  // 12: setupBarChartDemo(ui->customPlot);
-  // 13: setupStatisticalDemo(ui->customPlot);
-  // 14: setupSimpleItemDemo(ui->customPlot);
-  // 15: setupItemDemo(ui->customPlot);
-  // 16: setupStyledDemo(ui->customPlot);
-  // 17: setupAdvancedAxesDemo(ui->customPlot);
-  // 18: setupColorMapDemo(ui->customPlot);
-  // 19: setupFinancialDemo(ui->customPlot);
+  setupDemo(10);
+  setupPlayground(ui->customPlot);
+//   0:  setupQuadraticDemo(ui->customPlot);
+//   1:  setupSimpleDemo(ui->customPlot);
+//   2:  setupSincScatterDemo(ui->customPlot);
+//   3:  setupScatterStyleDemo(ui->customPlot);
+//   4:  setupScatterPixmapDemo(ui->customPlot);
+//   5:  setupLineStyleDemo(ui->customPlot);
+//   6:  setupDateDemo(ui->customPlot);
+//   7:  setupTextureBrushDemo(ui->customPlot);
+//   8:  setupMultiAxisDemo(ui->customPlot);
+//   9:  setupLogarithmicDemo(ui->customPlot);
+//   10: setupRealtimeDataDemo(ui->customPlot);
+//   11: setupParametricCurveDemo(ui->customPlot);
+//   12: setupBarChartDemo(ui->customPlot);
+//   13: setupStatisticalDemo(ui->customPlot);
+//   14: setupSimpleItemDemo(ui->customPlot);
+//   15: setupItemDemo(ui->customPlot);
+//   16: setupStyledDemo(ui->customPlot);
+//   17: setupAdvancedAxesDemo(ui->customPlot);
+//   18: setupColorMapDemo(ui->customPlot);
+//   19: setupFinancialDemo(ui->customPlot);
   
-  // for making screenshots of the current demo or all demos (for website screenshots):
-  //QTimer::singleShot(1500, this, SLOT(allScreenShots()));
-  //QTimer::singleShot(4000, this, SLOT(screenShot()));
+//   for making screenshots of the current demo or all demos (for website screenshots):
+//  QTimer::singleShot(1500, this, SLOT(allScreenShots()));
+//  QTimer::singleShot(4000, this, SLOT(screenShot()));
 }
 
 void MainWindow::setupDemo(int demoIndex)
@@ -733,11 +733,11 @@ void MainWindow::setupRealtimeDataDemo(QCustomPlot *customPlot)
   customPlot->graph(0)->setChannelFillGraph(customPlot->graph(1));
   
   customPlot->addGraph(); // blue dot
-  customPlot->graph(2)->setPen(QPen(Qt::blue));
+  customPlot->graph(2)->setPen(QPen(Qt::green));
   customPlot->graph(2)->setLineStyle(QCPGraph::lsNone);
   customPlot->graph(2)->setScatterStyle(QCPScatterStyle::ssDisc);
   customPlot->addGraph(); // red dot
-  customPlot->graph(3)->setPen(QPen(Qt::red));
+  customPlot->graph(3)->setPen(QPen(Qt::gray));
   customPlot->graph(3)->setLineStyle(QCPGraph::lsNone);
   customPlot->graph(3)->setScatterStyle(QCPScatterStyle::ssDisc);
   

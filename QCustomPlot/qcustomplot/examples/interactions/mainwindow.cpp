@@ -14,6 +14,7 @@ MainWindow::MainWindow(QWidget *parent) :
   ui->customPlot->yAxis->setRange(-5, 5);
   ui->customPlot->axisRect()->setupFullAxesBox();
   
+  //添加QcpPlotTitle 的标题
   ui->customPlot->plotLayout()->insertRow(0);
   ui->customPlot->plotLayout()->addElement(0, 0, new QCPPlotTitle(ui->customPlot, "Interaction Example"));
   
@@ -21,15 +22,15 @@ MainWindow::MainWindow(QWidget *parent) :
   ui->customPlot->yAxis->setLabel("y Axis");
   ui->customPlot->legend->setVisible(true);
   QFont legendFont = font();
-  legendFont.setPointSize(10);
+  legendFont.setPointSize(15);
   ui->customPlot->legend->setFont(legendFont);
   ui->customPlot->legend->setSelectedFont(legendFont);
   ui->customPlot->legend->setSelectableParts(QCPLegend::spItems); // legend box shall not be selectable, only legend items
   
   addRandomGraph();
-  addRandomGraph();
-  addRandomGraph();
-  addRandomGraph();
+//  addRandomGraph();
+//  addRandomGraph();
+//  addRandomGraph();
   
   // connect slot that ties some axis selections together (especially opposite axes):
   connect(ui->customPlot, SIGNAL(selectionChangedByUser()), this, SLOT(selectionChanged()));
@@ -194,7 +195,7 @@ void MainWindow::addRandomGraph()
   ui->customPlot->addGraph();
   ui->customPlot->graph()->setName(QString("New graph %1").arg(ui->customPlot->graphCount()-1));
   ui->customPlot->graph()->setData(x, y);
-  ui->customPlot->graph()->setLineStyle((QCPGraph::LineStyle)(rand()%5+1));
+  ui->customPlot->graph()->setLineStyle( (QCPGraph::LineStyle)(rand()%5+1)  );
   if (rand()%100 > 50)
     ui->customPlot->graph()->setScatterStyle(QCPScatterStyle((QCPScatterStyle::ScatterShape)(rand()%14+1)));
   QPen graphPen;
@@ -226,11 +227,11 @@ void MainWindow::contextMenuRequest(QPoint pos)
   
   if (ui->customPlot->legend->selectTest(pos, false) >= 0) // context menu on legend requested
   {
-    menu->addAction("Move to top left", this, SLOT(moveLegend()))->setData((int)(Qt::AlignTop|Qt::AlignLeft));
-    menu->addAction("Move to top center", this, SLOT(moveLegend()))->setData((int)(Qt::AlignTop|Qt::AlignHCenter));
-    menu->addAction("Move to top right", this, SLOT(moveLegend()))->setData((int)(Qt::AlignTop|Qt::AlignRight));
-    menu->addAction("Move to bottom right", this, SLOT(moveLegend()))->setData((int)(Qt::AlignBottom|Qt::AlignRight));
-    menu->addAction("Move to bottom left", this, SLOT(moveLegend()))->setData((int)(Qt::AlignBottom|Qt::AlignLeft));
+    menu->addAction("Move to top left", this, SLOT(moveLegend())) ->setData((int)(Qt::AlignTop|Qt::AlignLeft));
+    menu->addAction("Move to top center", this, SLOT(moveLegend())) ->setData((int)(Qt::AlignTop|Qt::AlignHCenter));
+    menu->addAction("Move to top right", this, SLOT(moveLegend()))  ->setData((int)(Qt::AlignTop|Qt::AlignRight));
+    menu->addAction("Move to bottom right", this, SLOT(moveLegend())) ->setData((int)(Qt::AlignBottom|Qt::AlignRight));
+    menu->addAction("Move to bottom left", this, SLOT(moveLegend()))  ->setData((int)(Qt::AlignBottom|Qt::AlignLeft));
   } else  // general context menu on graphs requested
   {
     menu->addAction("Add random graph", this, SLOT(addRandomGraph()));
