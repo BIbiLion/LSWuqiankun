@@ -5,3 +5,5 @@ Makefile*
 */debug/*
 */release/*
 moc_*
+*/build*Debug
+./build*
