@@ -1,0 +1,50 @@
+
+//Function
+/*
+把一个字符串转换成16进制串 进行发送
+*/
+
+static char HexChar(char c)
+{
+    if((c>='0')&&(c<='9'))
+        return c-0x30;
+    else if((c>='A')&&(c<='F'))
+        return c-'A'+10;
+    else if((c>='a')&&(c<='f'))
+        return c-'a'+10;
+    else
+        return 0x10;
+}
+
+//将一个字符串作为十六进制串转化为一个字节数组，字节间可用空格分隔，
+//返回转换后的字节数组长度，同时字节数组长度自动设置。
+static int Str2Hex( std::string str, char* data)
+{
+    int t,t1;
+    int rlen=0,len=str.length();
+    for(int i=0;i<len;)
+    {
+        char l,h=str[i];
+        if(h==' ')//如果有空格
+        {
+            i++;
+            continue;
+        }
+        i++;
+        if(i>=len)
+            break;
+        l=str[i];
+        t=HexChar(h);
+        t1=HexChar(l);
+        if((t==16)||(t1==16))
+            break;
+        else
+            t=t*16+t1;
+        i++;
+        data[rlen]=(char)t;
+        rlen++;
+    }
+    qDebug()<<"长度："<<rlen;
+    return rlen;
+
+}
