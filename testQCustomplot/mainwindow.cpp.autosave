@@ -189,7 +189,7 @@ void MainWindow::resetPlot()
 
          lastPointKey = key;
        }
-       // make key axis range scroll with the data (at a constant range size of 8):
+       // make kexisy a range scroll with the data (at a constant range size of 8):
        ui->plot->xAxis->setRange(key+0.25, 8, Qt::AlignRight);
        ui->plot->replot();
 

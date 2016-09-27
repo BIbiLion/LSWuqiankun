@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include "qcustomplot.h"
+
+#include "writefile.h"
 namespace Ui {
 class MainWindow;
 }
@@ -23,6 +25,9 @@ private:
     int m_count;
     QVector<double > m_x;
     QVector<double > m_y;
+    QWriteFile * m_writeFile;
+
+
 };
 
 #endif // MAINWINDOW_H
