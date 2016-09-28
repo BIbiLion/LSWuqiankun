@@ -76,6 +76,8 @@ void MainWindow::clear()
 
 MainWindow::~MainWindow()
 {
+    m_serialPort->close();
+    m_serialPort->deleteLater();
     delete ui;
 }
 void MainWindow::openCom()
@@ -114,10 +116,10 @@ void MainWindow::showData(QByteArray _by)
 void MainWindow::sendData_83()
 {
     //固定长度
-    QString _str("55 AA 83 00 11 12 22 20 00 01 11");
+    QString _str("55 AA 83 00 09 83 00 01 00 01 01 00 00 01 13");
     char sendDataPtr[300];
     int length=Str2Hex(_str.toStdString().c_str(),sendDataPtr);
-    ui->displayTextEdit->setText(ui->displayTextEdit->toPlainText()+"\n"+"send ---83---:"+_str);
+    ui->displayTextEdit->setText(ui->displayTextEdit->toPlainText()+"\n"+"send -83----------:"+_str);
     m_serialPort->write(sendDataPtr,length);
 }
 
@@ -131,11 +133,12 @@ void MainWindow::sendData()
 
     //填写的是 字符串   转换成16进制串
     QString _str=ui->sendTextEdit->toPlainText();
+    _str=("55 AA 81 00 40 81 00 01 00 01 01 00 00 01 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 10 11 12 13 14 15 16 17 18 19\1A 1B 1C 1D 1E 1F 20 21 22 23 24 25 26 27 28 29 2A 2B 2C 2D 2E 2F 30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E E7");
     char p[300];
 
     int length=Str2Hex(_str.toStdString().c_str(),p);
 
-    ui->displayTextEdit->setText(ui->displayTextEdit->toPlainText()+"\n"+"send --81--"+_str);
+    ui->displayTextEdit->setText(ui->displayTextEdit->toPlainText()+"\n"+"send -81------"+_str);
 
     m_serialPort->write(p,length);
 }
