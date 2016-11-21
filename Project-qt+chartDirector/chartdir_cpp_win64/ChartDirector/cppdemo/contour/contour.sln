@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{6B956787-8419-BC06-CF73-957D1886E4D6}") = "contour", "contour.vcproj", "{7BEBCF97-032F-1684-244A-B3434AA47AAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BEBCF97-032F-1684-244A-B3434AA47AAA}.Debug|x64.ActiveCfg = Debug|x64
+		{7BEBCF97-032F-1684-244A-B3434AA47AAA}.Debug|x64.Build.0 = Debug|x64
+		{7BEBCF97-032F-1684-244A-B3434AA47AAA}.Release|x64.ActiveCfg = Release|x64
+		{7BEBCF97-032F-1684-244A-B3434AA47AAA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{0B1D774D-5359-0AD8-60C8-1F1A26C921C8}") = "stackedbar", "stackedbar.vcproj", "{3600A4C6-7C9F-4BE9-D462-7DBC894D970F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3600A4C6-7C9F-4BE9-D462-7DBC894D970F}.Debug|x64.ActiveCfg = Debug|x64
+		{3600A4C6-7C9F-4BE9-D462-7DBC894D970F}.Debug|x64.Build.0 = Debug|x64
+		{3600A4C6-7C9F-4BE9-D462-7DBC894D970F}.Release|x64.ActiveCfg = Release|x64
+		{3600A4C6-7C9F-4BE9-D462-7DBC894D970F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

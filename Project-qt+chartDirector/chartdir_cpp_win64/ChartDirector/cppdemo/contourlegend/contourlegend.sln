@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{5051453E-78BA-53C6-5E5F-92BB12A96B46}") = "contourlegend", "contourlegend.vcproj", "{02A14095-2B0A-2B22-DE87-32F6E18EC0D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02A14095-2B0A-2B22-DE87-32F6E18EC0D7}.Debug|x64.ActiveCfg = Debug|x64
+		{02A14095-2B0A-2B22-DE87-32F6E18EC0D7}.Debug|x64.Build.0 = Debug|x64
+		{02A14095-2B0A-2B22-DE87-32F6E18EC0D7}.Release|x64.ActiveCfg = Release|x64
+		{02A14095-2B0A-2B22-DE87-32F6E18EC0D7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

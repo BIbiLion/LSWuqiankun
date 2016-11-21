@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2C8FAB08-5C18-D3D5-7EDD-B056BE7CF355}") = "roundmeter", "roundmeter.vcproj", "{478C60F8-555A-8FAD-35B4-CADCA2102719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{478C60F8-555A-8FAD-35B4-CADCA2102719}.Debug|x64.ActiveCfg = Debug|x64
+		{478C60F8-555A-8FAD-35B4-CADCA2102719}.Debug|x64.Build.0 = Debug|x64
+		{478C60F8-555A-8FAD-35B4-CADCA2102719}.Release|x64.ActiveCfg = Release|x64
+		{478C60F8-555A-8FAD-35B4-CADCA2102719}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

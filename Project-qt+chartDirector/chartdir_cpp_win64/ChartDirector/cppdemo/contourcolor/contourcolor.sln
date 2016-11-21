@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{623E9D9F-F5F7-1296-D3B6-9258F93B3542}") = "contourcolor", "contourcolor.vcproj", "{1385C60F-726F-1853-2090-CC109BF0C8A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1385C60F-726F-1853-2090-CC109BF0C8A0}.Debug|x64.ActiveCfg = Debug|x64
+		{1385C60F-726F-1853-2090-CC109BF0C8A0}.Debug|x64.Build.0 = Debug|x64
+		{1385C60F-726F-1853-2090-CC109BF0C8A0}.Release|x64.ActiveCfg = Release|x64
+		{1385C60F-726F-1853-2090-CC109BF0C8A0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{5BDEBA9C-45FD-7ED4-FD5A-2D2AFD8DB04E}") = "threedpieshading", "threedpieshading.vcproj", "{2C4EBA0E-3568-1224-6585-89A53DC452F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C4EBA0E-3568-1224-6585-89A53DC452F5}.Debug|x64.ActiveCfg = Debug|x64
+		{2C4EBA0E-3568-1224-6585-89A53DC452F5}.Debug|x64.Build.0 = Debug|x64
+		{2C4EBA0E-3568-1224-6585-89A53DC452F5}.Release|x64.ActiveCfg = Release|x64
+		{2C4EBA0E-3568-1224-6585-89A53DC452F5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

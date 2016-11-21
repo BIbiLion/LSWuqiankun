@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAC184D0-DDBB-7506-9A54-7D52488D38E3}") = "colorbar2", "colorbar2.vcproj", "{3E119712-871A-7A23-FCF0-1F0CB2657C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E119712-871A-7A23-FCF0-1F0CB2657C0D}.Debug|x64.ActiveCfg = Debug|x64
+		{3E119712-871A-7A23-FCF0-1F0CB2657C0D}.Debug|x64.Build.0 = Debug|x64
+		{3E119712-871A-7A23-FCF0-1F0CB2657C0D}.Release|x64.ActiveCfg = Release|x64
+		{3E119712-871A-7A23-FCF0-1F0CB2657C0D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

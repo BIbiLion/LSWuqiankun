@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{BC937E2E-3BB9-F8B2-35A5-F128D4D4589A}") = "texturedonut", "texturedonut.vcproj", "{43FAA7AD-71D1-3B25-96CB-25DA3DEBA396}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43FAA7AD-71D1-3B25-96CB-25DA3DEBA396}.Debug|x64.ActiveCfg = Debug|x64
+		{43FAA7AD-71D1-3B25-96CB-25DA3DEBA396}.Debug|x64.Build.0 = Debug|x64
+		{43FAA7AD-71D1-3B25-96CB-25DA3DEBA396}.Release|x64.ActiveCfg = Release|x64
+		{43FAA7AD-71D1-3B25-96CB-25DA3DEBA396}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

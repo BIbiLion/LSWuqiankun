@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E7D145BC-5420-6D7F-8BD6-784942CF4A49}") = "threedanglepie", "threedanglepie.vcproj", "{6A6DB29C-E7DB-8519-9C9C-E90D6099FC4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A6DB29C-E7DB-8519-9C9C-E90D6099FC4D}.Debug|x64.ActiveCfg = Debug|x64
+		{6A6DB29C-E7DB-8519-9C9C-E90D6099FC4D}.Debug|x64.Build.0 = Debug|x64
+		{6A6DB29C-E7DB-8519-9C9C-E90D6099FC4D}.Release|x64.ActiveCfg = Release|x64
+		{6A6DB29C-E7DB-8519-9C9C-E90D6099FC4D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

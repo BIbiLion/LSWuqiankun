@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E7636E9F-F73E-2F57-82B8-E532442291C4}") = "threedpie", "threedpie.vcproj", "{88B54291-0278-E70A-B5F0-142854E38606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88B54291-0278-E70A-B5F0-142854E38606}.Debug|x64.ActiveCfg = Debug|x64
+		{88B54291-0278-E70A-B5F0-142854E38606}.Debug|x64.Build.0 = Debug|x64
+		{88B54291-0278-E70A-B5F0-142854E38606}.Release|x64.ActiveCfg = Release|x64
+		{88B54291-0278-E70A-B5F0-142854E38606}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

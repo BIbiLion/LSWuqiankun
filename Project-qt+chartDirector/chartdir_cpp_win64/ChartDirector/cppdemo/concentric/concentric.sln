@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{DC5B0B2C-240C-59EF-EA1A-6BBCDE5796DB}") = "concentric", "concentric.vcproj", "{64DEB55F-8234-7641-1CFE-1627C3BBBB6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64DEB55F-8234-7641-1CFE-1627C3BBBB6D}.Debug|x64.ActiveCfg = Debug|x64
+		{64DEB55F-8234-7641-1CFE-1627C3BBBB6D}.Debug|x64.Build.0 = Debug|x64
+		{64DEB55F-8234-7641-1CFE-1627C3BBBB6D}.Release|x64.ActiveCfg = Release|x64
+		{64DEB55F-8234-7641-1CFE-1627C3BBBB6D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

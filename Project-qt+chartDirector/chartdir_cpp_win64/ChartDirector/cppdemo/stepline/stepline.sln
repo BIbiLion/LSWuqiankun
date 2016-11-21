@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{09E05058-7792-E92E-8726-8DA3B240A669}") = "stepline", "stepline.vcproj", "{FA541A43-06A2-A62C-2B72-170CFB36D058}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA541A43-06A2-A62C-2B72-170CFB36D058}.Debug|x64.ActiveCfg = Debug|x64
+		{FA541A43-06A2-A62C-2B72-170CFB36D058}.Debug|x64.Build.0 = Debug|x64
+		{FA541A43-06A2-A62C-2B72-170CFB36D058}.Release|x64.ActiveCfg = Release|x64
+		{FA541A43-06A2-A62C-2B72-170CFB36D058}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

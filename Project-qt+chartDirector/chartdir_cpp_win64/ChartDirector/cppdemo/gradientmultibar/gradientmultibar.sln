@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{538FC7CB-43B6-92F3-8375-E3A8B7F16575}") = "gradientmultibar", "gradientmultibar.vcproj", "{F29B24E6-0CD8-DD9B-1B06-F7D043C1DBE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F29B24E6-0CD8-DD9B-1B06-F7D043C1DBE3}.Debug|x64.ActiveCfg = Debug|x64
+		{F29B24E6-0CD8-DD9B-1B06-F7D043C1DBE3}.Debug|x64.Build.0 = Debug|x64
+		{F29B24E6-0CD8-DD9B-1B06-F7D043C1DBE3}.Release|x64.ActiveCfg = Release|x64
+		{F29B24E6-0CD8-DD9B-1B06-F7D043C1DBE3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{DD0DED80-6863-1124-A7FF-311D4751A2FD}") = "threedpyramid", "threedpyramid.vcproj", "{C94F491E-9A83-8AE8-4C39-01DBDA9D937A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C94F491E-9A83-8AE8-4C39-01DBDA9D937A}.Debug|x64.ActiveCfg = Debug|x64
+		{C94F491E-9A83-8AE8-4C39-01DBDA9D937A}.Debug|x64.Build.0 = Debug|x64
+		{C94F491E-9A83-8AE8-4C39-01DBDA9D937A}.Release|x64.ActiveCfg = Release|x64
+		{C94F491E-9A83-8AE8-4C39-01DBDA9D937A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

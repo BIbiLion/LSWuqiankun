@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{DBCC3718-50BE-22A4-904D-B74C9AD42FE8}") = "layergantt", "layergantt.vcproj", "{359EB8D5-C767-9124-8D24-271057B14679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{359EB8D5-C767-9124-8D24-271057B14679}.Debug|x64.ActiveCfg = Debug|x64
+		{359EB8D5-C767-9124-8D24-271057B14679}.Debug|x64.Build.0 = Debug|x64
+		{359EB8D5-C767-9124-8D24-271057B14679}.Release|x64.ActiveCfg = Release|x64
+		{359EB8D5-C767-9124-8D24-271057B14679}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

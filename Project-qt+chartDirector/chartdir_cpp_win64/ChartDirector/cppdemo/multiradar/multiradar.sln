@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{A5097967-9CCD-7AE2-B9D6-20B551B4F104}") = "multiradar", "multiradar.vcproj", "{125FA007-B9E1-A179-57E3-42426561CA1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125FA007-B9E1-A179-57E3-42426561CA1F}.Debug|x64.ActiveCfg = Debug|x64
+		{125FA007-B9E1-A179-57E3-42426561CA1F}.Debug|x64.Build.0 = Debug|x64
+		{125FA007-B9E1-A179-57E3-42426561CA1F}.Release|x64.ActiveCfg = Release|x64
+		{125FA007-B9E1-A179-57E3-42426561CA1F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{CE14CEB6-CF50-6108-EDB1-352303CC1B72}") = "threeddonut", "threeddonut.vcproj", "{6222CFDC-A0FB-C664-2ED0-9B6D4206B5AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6222CFDC-A0FB-C664-2ED0-9B6D4206B5AC}.Debug|x64.ActiveCfg = Debug|x64
+		{6222CFDC-A0FB-C664-2ED0-9B6D4206B5AC}.Debug|x64.Build.0 = Debug|x64
+		{6222CFDC-A0FB-C664-2ED0-9B6D4206B5AC}.Release|x64.ActiveCfg = Release|x64
+		{6222CFDC-A0FB-C664-2ED0-9B6D4206B5AC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

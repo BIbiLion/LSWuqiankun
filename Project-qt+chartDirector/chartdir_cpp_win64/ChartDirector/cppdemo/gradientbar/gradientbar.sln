@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{C347C108-C1AC-92E1-40B8-2E24252FBE92}") = "gradientbar", "gradientbar.vcproj", "{D497DE43-5A67-D2C0-59BF-DD26D9ABFC53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D497DE43-5A67-D2C0-59BF-DD26D9ABFC53}.Debug|x64.ActiveCfg = Debug|x64
+		{D497DE43-5A67-D2C0-59BF-DD26D9ABFC53}.Debug|x64.Build.0 = Debug|x64
+		{D497DE43-5A67-D2C0-59BF-DD26D9ABFC53}.Release|x64.ActiveCfg = Release|x64
+		{D497DE43-5A67-D2C0-59BF-DD26D9ABFC53}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

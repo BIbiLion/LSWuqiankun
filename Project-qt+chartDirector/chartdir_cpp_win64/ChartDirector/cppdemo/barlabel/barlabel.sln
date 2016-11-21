@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F8ADA9D9-3B87-55DC-B24D-17E26304A9C6}") = "barlabel", "barlabel.vcproj", "{19691D43-77A3-5230-A23F-43636FD6664D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19691D43-77A3-5230-A23F-43636FD6664D}.Debug|x64.ActiveCfg = Debug|x64
+		{19691D43-77A3-5230-A23F-43636FD6664D}.Debug|x64.Build.0 = Debug|x64
+		{19691D43-77A3-5230-A23F-43636FD6664D}.Release|x64.ActiveCfg = Release|x64
+		{19691D43-77A3-5230-A23F-43636FD6664D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

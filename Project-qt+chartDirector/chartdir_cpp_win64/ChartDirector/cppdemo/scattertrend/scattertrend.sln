@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2238A084-FFED-5685-9ECD-0FEAC871EF6F}") = "scattertrend", "scattertrend.vcproj", "{EA460DC8-6B07-32AB-2B6B-3E6435D9BBBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA460DC8-6B07-32AB-2B6B-3E6435D9BBBA}.Debug|x64.ActiveCfg = Debug|x64
+		{EA460DC8-6B07-32AB-2B6B-3E6435D9BBBA}.Debug|x64.Build.0 = Debug|x64
+		{EA460DC8-6B07-32AB-2B6B-3E6435D9BBBA}.Release|x64.ActiveCfg = Release|x64
+		{EA460DC8-6B07-32AB-2B6B-3E6435D9BBBA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

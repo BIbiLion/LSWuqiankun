@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{239010A4-A73F-7E3A-5124-5E1AE22DFA4F}") = "multicylinder", "multicylinder.vcproj", "{4B58163C-F4D1-1D00-C7AF-4422DB9381D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B58163C-F4D1-1D00-C7AF-4422DB9381D1}.Debug|x64.ActiveCfg = Debug|x64
+		{4B58163C-F4D1-1D00-C7AF-4422DB9381D1}.Debug|x64.Build.0 = Debug|x64
+		{4B58163C-F4D1-1D00-C7AF-4422DB9381D1}.Release|x64.ActiveCfg = Release|x64
+		{4B58163C-F4D1-1D00-C7AF-4422DB9381D1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

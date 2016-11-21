@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{9D9F37D3-E43F-0BEF-758F-97E2A12A7918}") = "colorgantt", "colorgantt.vcproj", "{B521F9F0-7F21-DF7D-49ED-1B3BADF0C990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B521F9F0-7F21-DF7D-49ED-1B3BADF0C990}.Debug|x64.ActiveCfg = Debug|x64
+		{B521F9F0-7F21-DF7D-49ED-1B3BADF0C990}.Debug|x64.Build.0 = Debug|x64
+		{B521F9F0-7F21-DF7D-49ED-1B3BADF0C990}.Release|x64.ActiveCfg = Release|x64
+		{B521F9F0-7F21-DF7D-49ED-1B3BADF0C990}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

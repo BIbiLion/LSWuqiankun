@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{05424905-14E2-1393-54E9-5F83CA312AC7}") = "scattersurface", "scattersurface.vcproj", "{B4F6DDB3-9505-DAA8-C61C-2AC17CAF11C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F6DDB3-9505-DAA8-C61C-2AC17CAF11C1}.Debug|x64.ActiveCfg = Debug|x64
+		{B4F6DDB3-9505-DAA8-C61C-2AC17CAF11C1}.Debug|x64.Build.0 = Debug|x64
+		{B4F6DDB3-9505-DAA8-C61C-2AC17CAF11C1}.Release|x64.ActiveCfg = Release|x64
+		{B4F6DDB3-9505-DAA8-C61C-2AC17CAF11C1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

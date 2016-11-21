@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{36F517C2-E5CB-E1D5-10A5-805AA278467B}") = "surfacewireframe", "surfacewireframe.vcproj", "{8B16F9A1-3D41-1B9D-05AA-1FBFB9555856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B16F9A1-3D41-1B9D-05AA-1FBFB9555856}.Debug|x64.ActiveCfg = Debug|x64
+		{8B16F9A1-3D41-1B9D-05AA-1FBFB9555856}.Debug|x64.Build.0 = Debug|x64
+		{8B16F9A1-3D41-1B9D-05AA-1FBFB9555856}.Release|x64.ActiveCfg = Release|x64
+		{8B16F9A1-3D41-1B9D-05AA-1FBFB9555856}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

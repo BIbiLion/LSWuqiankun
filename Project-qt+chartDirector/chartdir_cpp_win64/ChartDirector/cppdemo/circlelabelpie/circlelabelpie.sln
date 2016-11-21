@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{B69DE955-6AF5-7344-272C-4BA68C0D4D5C}") = "circlelabelpie", "circlelabelpie.vcproj", "{3D0237C6-9190-D5DA-2EA3-29EC2E03BC52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D0237C6-9190-D5DA-2EA3-29EC2E03BC52}.Debug|x64.ActiveCfg = Debug|x64
+		{3D0237C6-9190-D5DA-2EA3-29EC2E03BC52}.Debug|x64.Build.0 = Debug|x64
+		{3D0237C6-9190-D5DA-2EA3-29EC2E03BC52}.Release|x64.ActiveCfg = Release|x64
+		{3D0237C6-9190-D5DA-2EA3-29EC2E03BC52}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

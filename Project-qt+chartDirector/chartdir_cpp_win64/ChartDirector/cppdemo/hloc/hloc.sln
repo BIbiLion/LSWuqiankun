@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{540C1821-9442-CCC8-7373-6F0EDB2BF94D}") = "hloc", "hloc.vcproj", "{DB0D163A-F66D-A1DE-E574-065A02D2A417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB0D163A-F66D-A1DE-E574-065A02D2A417}.Debug|x64.ActiveCfg = Debug|x64
+		{DB0D163A-F66D-A1DE-E574-065A02D2A417}.Debug|x64.Build.0 = Debug|x64
+		{DB0D163A-F66D-A1DE-E574-065A02D2A417}.Release|x64.ActiveCfg = Release|x64
+		{DB0D163A-F66D-A1DE-E574-065A02D2A417}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

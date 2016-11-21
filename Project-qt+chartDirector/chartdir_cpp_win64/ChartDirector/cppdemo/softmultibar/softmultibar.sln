@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{C8076C17-FBF9-388C-87B4-F6D0A9221AE5}") = "softmultibar", "softmultibar.vcproj", "{2DB1D4A7-A168-5BDA-8989-8827A1F4E34A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DB1D4A7-A168-5BDA-8989-8827A1F4E34A}.Debug|x64.ActiveCfg = Debug|x64
+		{2DB1D4A7-A168-5BDA-8989-8827A1F4E34A}.Debug|x64.Build.0 = Debug|x64
+		{2DB1D4A7-A168-5BDA-8989-8827A1F4E34A}.Release|x64.ActiveCfg = Release|x64
+		{2DB1D4A7-A168-5BDA-8989-8827A1F4E34A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

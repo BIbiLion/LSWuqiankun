@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{340C7578-311D-173E-7A9F-E733BAD1102B}") = "icondonut", "icondonut.vcproj", "{974017F1-5620-DA07-6103-371A14740956}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974017F1-5620-DA07-6103-371A14740956}.Debug|x64.ActiveCfg = Debug|x64
+		{974017F1-5620-DA07-6103-371A14740956}.Debug|x64.Build.0 = Debug|x64
+		{974017F1-5620-DA07-6103-371A14740956}.Release|x64.ActiveCfg = Release|x64
+		{974017F1-5620-DA07-6103-371A14740956}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

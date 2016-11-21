@@ -1,0 +1,5 @@
+eg：CDML used: 类似html
+
+"<*block,> <*img=图片.png*> 修饰文本      <*/*> >
+
+"<*block,valign=absmiddle*><*img=clock.png*>  Elapsed Time (hour)<*/*>"

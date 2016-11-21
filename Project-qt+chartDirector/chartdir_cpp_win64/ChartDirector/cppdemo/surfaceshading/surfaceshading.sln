@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{550558A3-9647-EB78-83C2-12AF76F1BB33}") = "surfaceshading", "surfaceshading.vcproj", "{72FE8A01-4092-5B54-8EB0-A6FE13D1B2E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72FE8A01-4092-5B54-8EB0-A6FE13D1B2E6}.Debug|x64.ActiveCfg = Debug|x64
+		{72FE8A01-4092-5B54-8EB0-A6FE13D1B2E6}.Debug|x64.Build.0 = Debug|x64
+		{72FE8A01-4092-5B54-8EB0-A6FE13D1B2E6}.Release|x64.ActiveCfg = Release|x64
+		{72FE8A01-4092-5B54-8EB0-A6FE13D1B2E6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

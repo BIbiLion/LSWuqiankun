@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{DE4F9233-5938-231D-A443-014A787E77BA}") = "polararea", "polararea.vcproj", "{0C14BE65-3B2A-E41D-40E7-7423F250EF47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C14BE65-3B2A-E41D-40E7-7423F250EF47}.Debug|x64.ActiveCfg = Debug|x64
+		{0C14BE65-3B2A-E41D-40E7-7423F250EF47}.Debug|x64.Build.0 = Debug|x64
+		{0C14BE65-3B2A-E41D-40E7-7423F250EF47}.Release|x64.ActiveCfg = Release|x64
+		{0C14BE65-3B2A-E41D-40E7-7423F250EF47}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

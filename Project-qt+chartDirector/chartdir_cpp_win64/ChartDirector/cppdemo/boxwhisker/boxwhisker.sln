@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E839DF60-09B0-08EE-69CC-9840DB1A68C4}") = "boxwhisker", "boxwhisker.vcproj", "{4E3FDF7E-9EBA-32D6-BA9D-154FBCCDAECC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3FDF7E-9EBA-32D6-BA9D-154FBCCDAECC}.Debug|x64.ActiveCfg = Debug|x64
+		{4E3FDF7E-9EBA-32D6-BA9D-154FBCCDAECC}.Debug|x64.Build.0 = Debug|x64
+		{4E3FDF7E-9EBA-32D6-BA9D-154FBCCDAECC}.Release|x64.ActiveCfg = Release|x64
+		{4E3FDF7E-9EBA-32D6-BA9D-154FBCCDAECC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

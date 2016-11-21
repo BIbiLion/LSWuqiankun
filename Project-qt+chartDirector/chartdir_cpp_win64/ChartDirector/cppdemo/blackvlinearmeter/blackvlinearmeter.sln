@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{9B8AF8A2-33DC-5C5B-9579-559137DD54B8}") = "blackvlinearmeter", "blackvlinearmeter.vcproj", "{445F65E1-448F-20B9-F79D-90C74E911CD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{445F65E1-448F-20B9-F79D-90C74E911CD8}.Debug|x64.ActiveCfg = Debug|x64
+		{445F65E1-448F-20B9-F79D-90C74E911CD8}.Debug|x64.Build.0 = Debug|x64
+		{445F65E1-448F-20B9-F79D-90C74E911CD8}.Release|x64.ActiveCfg = Release|x64
+		{445F65E1-448F-20B9-F79D-90C74E911CD8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

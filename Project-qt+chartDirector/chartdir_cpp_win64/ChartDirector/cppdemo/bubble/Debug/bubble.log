@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016/11/17 9:28:22。
+     1>项目“E:\LSwuqiankun\chartdir_cpp_win64\ChartDirector\cppdemo\bubble\bubble.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\..\bin\Debug\bubble.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib\ chartdir60.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\..\bin\Debug\bubble.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\bin\Debug\bubble.lib" /MACHINE:X64 Debug\bubble.obj
+         bubble.vcxproj -> E:\LSwuqiankun\chartdir_cpp_win64\ChartDirector\cppdemo\bubble\.\..\bin\Debug\bubble.exe
+       PostBuildEvent:
+         xcopy /D /Y /C ..\..\lib\chartdir60.dll .\..\bin\Debug\
+         :VCEnd
+         复制了 0 个文件
+     1>已完成生成项目“E:\LSwuqiankun\chartdir_cpp_win64\ChartDirector\cppdemo\bubble\bubble.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.30

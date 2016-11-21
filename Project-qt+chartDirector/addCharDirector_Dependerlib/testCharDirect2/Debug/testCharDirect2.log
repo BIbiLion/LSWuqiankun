@@ -1,0 +1,18 @@
+﻿生成启动时间为 2016/11/17 11:16:20。
+     1>项目“E:\LSwuqiankun\LSWuqiankun\addCharDirector_Dependerlib\testCharDirect2\testCharDirect2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\LSwuqiankun\LSWuqiankun\addCharDirector_Dependerlib\testCharDirect2\ChartDirector\include /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt testchardirect2.cpp
+         testchardirect2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\LSwuqiankun\LSWuqiankun\addCharDirector_Dependerlib\Win32\Debug\\testCharDirect2.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2012\lib /LIBPATH:E:\LSwuqiankun\LSWuqiankun\addCharDirector_Dependerlib\testCharDirect2\ChartDirector\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib chartdir50.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\LSwuqiankun\LSWuqiankun\addCharDirector_Dependerlib\Win32\Debug\testCharDirect2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\LSwuqiankun\LSWuqiankun\addCharDirector_Dependerlib\Win32\Debug\testCharDirect2.lib" /MACHINE:X86 /SAFESEH Debug\qchartviewer.obj
+         Debug\moc_qchartviewer.obj
+         Debug\moc_testchardirect2.obj
+         Debug\qrc_testchardirect2.obj
+         Debug\main.obj
+         Debug\testchardirect2.obj
+         testCharDirect2.vcxproj -> E:\LSwuqiankun\LSWuqiankun\addCharDirector_Dependerlib\Win32\Debug\testCharDirect2.exe
+     1>已完成生成项目“E:\LSwuqiankun\LSWuqiankun\addCharDirector_Dependerlib\testCharDirect2\testCharDirect2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.66

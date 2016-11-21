@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{22E9BBF2-FFF4-1B42-913B-CD9068081A26}") = "ticks", "ticks.vcproj", "{C251EF5F-0FBE-F348-966B-346637C0A2A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C251EF5F-0FBE-F348-966B-346637C0A2A5}.Debug|x64.ActiveCfg = Debug|x64
+		{C251EF5F-0FBE-F348-966B-346637C0A2A5}.Debug|x64.Build.0 = Debug|x64
+		{C251EF5F-0FBE-F348-966B-346637C0A2A5}.Release|x64.ActiveCfg = Release|x64
+		{C251EF5F-0FBE-F348-966B-346637C0A2A5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

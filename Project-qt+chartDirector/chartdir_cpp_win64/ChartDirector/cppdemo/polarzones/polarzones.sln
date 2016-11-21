@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{A0B8019C-484F-77ED-C89B-A860D557DEBD}") = "polarzones", "polarzones.vcproj", "{A6273BE5-3016-D717-3367-E1559FB72DD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6273BE5-3016-D717-3367-E1559FB72DD9}.Debug|x64.ActiveCfg = Debug|x64
+		{A6273BE5-3016-D717-3367-E1559FB72DD9}.Debug|x64.Build.0 = Debug|x64
+		{A6273BE5-3016-D717-3367-E1559FB72DD9}.Release|x64.ActiveCfg = Release|x64
+		{A6273BE5-3016-D717-3367-E1559FB72DD9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

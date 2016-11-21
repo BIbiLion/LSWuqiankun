@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{3978A72C-9C16-251B-3814-042AE9167769}") = "donutwidth", "donutwidth.vcproj", "{856A2353-5D66-BE7B-5E38-E3D663A01FA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{856A2353-5D66-BE7B-5E38-E3D663A01FA7}.Debug|x64.ActiveCfg = Debug|x64
+		{856A2353-5D66-BE7B-5E38-E3D663A01FA7}.Debug|x64.Build.0 = Debug|x64
+		{856A2353-5D66-BE7B-5E38-E3D663A01FA7}.Release|x64.ActiveCfg = Release|x64
+		{856A2353-5D66-BE7B-5E38-E3D663A01FA7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

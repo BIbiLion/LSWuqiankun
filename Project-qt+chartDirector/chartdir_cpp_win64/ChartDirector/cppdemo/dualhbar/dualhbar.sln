@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{772CDF93-C1AF-2F88-B6F0-2347AE8BDFCB}") = "dualhbar", "dualhbar.vcproj", "{01D90449-270E-C2DC-EBAC-0DC0CE094B38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01D90449-270E-C2DC-EBAC-0DC0CE094B38}.Debug|x64.ActiveCfg = Debug|x64
+		{01D90449-270E-C2DC-EBAC-0DC0CE094B38}.Debug|x64.Build.0 = Debug|x64
+		{01D90449-270E-C2DC-EBAC-0DC0CE094B38}.Release|x64.ActiveCfg = Release|x64
+		{01D90449-270E-C2DC-EBAC-0DC0CE094B38}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

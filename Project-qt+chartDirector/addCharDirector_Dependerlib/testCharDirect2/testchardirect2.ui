@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>testCharDirect2Class</class>
+ <widget class="QWidget" name="testCharDirect2Class" >
+  <property name="objectName" >
+   <string notr="true">testCharDirect2Class</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>testCharDirect2</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="testchardirect2.qrc"/>
+ </resources>
+ <connections/>
+</UI>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D2B8696E-E8DF-EDA0-BEB4-B4AF4FED238E}") = "iconpie2", "iconpie2.vcproj", "{D052BEF7-8DF7-48A3-7DEC-1F613524AC46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D052BEF7-8DF7-48A3-7DEC-1F613524AC46}.Debug|x64.ActiveCfg = Debug|x64
+		{D052BEF7-8DF7-48A3-7DEC-1F613524AC46}.Debug|x64.Build.0 = Debug|x64
+		{D052BEF7-8DF7-48A3-7DEC-1F613524AC46}.Release|x64.ActiveCfg = Release|x64
+		{D052BEF7-8DF7-48A3-7DEC-1F613524AC46}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

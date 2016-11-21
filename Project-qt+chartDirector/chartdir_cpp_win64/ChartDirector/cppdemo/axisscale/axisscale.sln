@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{AAD135DA-7F9E-298F-F1F5-127B95C47588}") = "axisscale", "axisscale.vcproj", "{D823390A-2FD9-1DD0-762F-FC879681EDB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D823390A-2FD9-1DD0-762F-FC879681EDB7}.Debug|x64.ActiveCfg = Debug|x64
+		{D823390A-2FD9-1DD0-762F-FC879681EDB7}.Debug|x64.Build.0 = Debug|x64
+		{D823390A-2FD9-1DD0-762F-FC879681EDB7}.Release|x64.ActiveCfg = Release|x64
+		{D823390A-2FD9-1DD0-762F-FC879681EDB7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

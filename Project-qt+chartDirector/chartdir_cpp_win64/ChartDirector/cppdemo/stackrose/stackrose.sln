@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{7B557CCF-6990-9117-D686-6A41D0EC24C1}") = "stackrose", "stackrose.vcproj", "{AB60EE91-5837-9539-9804-F5905B06220E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB60EE91-5837-9539-9804-F5905B06220E}.Debug|x64.ActiveCfg = Debug|x64
+		{AB60EE91-5837-9539-9804-F5905B06220E}.Debug|x64.Build.0 = Debug|x64
+		{AB60EE91-5837-9539-9804-F5905B06220E}.Release|x64.ActiveCfg = Release|x64
+		{AB60EE91-5837-9539-9804-F5905B06220E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

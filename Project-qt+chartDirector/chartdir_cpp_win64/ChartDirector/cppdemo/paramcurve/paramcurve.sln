@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8002E43F-9FB7-B9C6-FBAD-1E9324DEF632}") = "paramcurve", "paramcurve.vcproj", "{6E267612-45A3-8F17-140E-742BD331FE28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E267612-45A3-8F17-140E-742BD331FE28}.Debug|x64.ActiveCfg = Debug|x64
+		{6E267612-45A3-8F17-140E-742BD331FE28}.Debug|x64.Build.0 = Debug|x64
+		{6E267612-45A3-8F17-140E-742BD331FE28}.Release|x64.ActiveCfg = Release|x64
+		{6E267612-45A3-8F17-140E-742BD331FE28}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

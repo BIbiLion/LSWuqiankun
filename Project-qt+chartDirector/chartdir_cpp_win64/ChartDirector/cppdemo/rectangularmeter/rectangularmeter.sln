@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8614B394-D765-FCF6-207B-E23E75283997}") = "rectangularmeter", "rectangularmeter.vcproj", "{BA255B61-E709-E21F-E04C-A318E473F88B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA255B61-E709-E21F-E04C-A318E473F88B}.Debug|x64.ActiveCfg = Debug|x64
+		{BA255B61-E709-E21F-E04C-A318E473F88B}.Debug|x64.Build.0 = Debug|x64
+		{BA255B61-E709-E21F-E04C-A318E473F88B}.Release|x64.ActiveCfg = Release|x64
+		{BA255B61-E709-E21F-E04C-A318E473F88B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

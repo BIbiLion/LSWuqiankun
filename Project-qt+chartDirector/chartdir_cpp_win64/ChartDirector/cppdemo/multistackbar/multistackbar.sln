@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{6D9B929F-800D-95F5-EEE6-5BCE1585728E}") = "multistackbar", "multistackbar.vcproj", "{F8C3C1D0-B387-7EDE-6A5A-D9670B196E1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C3C1D0-B387-7EDE-6A5A-D9670B196E1A}.Debug|x64.ActiveCfg = Debug|x64
+		{F8C3C1D0-B387-7EDE-6A5A-D9670B196E1A}.Debug|x64.Build.0 = Debug|x64
+		{F8C3C1D0-B387-7EDE-6A5A-D9670B196E1A}.Release|x64.ActiveCfg = Release|x64
+		{F8C3C1D0-B387-7EDE-6A5A-D9670B196E1A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

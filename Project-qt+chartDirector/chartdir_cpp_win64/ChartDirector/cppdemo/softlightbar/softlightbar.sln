@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{86567A9B-F5B1-D5BC-AE4F-5B0A0373D384}") = "softlightbar", "softlightbar.vcproj", "{2740B9B3-0344-4EFF-4E0F-97F521DB4F97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2740B9B3-0344-4EFF-4E0F-97F521DB4F97}.Debug|x64.ActiveCfg = Debug|x64
+		{2740B9B3-0344-4EFF-4E0F-97F521DB4F97}.Debug|x64.Build.0 = Debug|x64
+		{2740B9B3-0344-4EFF-4E0F-97F521DB4F97}.Release|x64.ActiveCfg = Release|x64
+		{2740B9B3-0344-4EFF-4E0F-97F521DB4F97}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

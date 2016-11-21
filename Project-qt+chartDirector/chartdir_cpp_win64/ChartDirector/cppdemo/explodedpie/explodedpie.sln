@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{BB871885-7345-DF9F-BC32-F497BFDACEBC}") = "explodedpie", "explodedpie.vcproj", "{DCC2D827-2623-1A08-21EA-E37F2A323CC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCC2D827-2623-1A08-21EA-E37F2A323CC4}.Debug|x64.ActiveCfg = Debug|x64
+		{DCC2D827-2623-1A08-21EA-E37F2A323CC4}.Debug|x64.Build.0 = Debug|x64
+		{DCC2D827-2623-1A08-21EA-E37F2A323CC4}.Release|x64.ActiveCfg = Release|x64
+		{DCC2D827-2623-1A08-21EA-E37F2A323CC4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

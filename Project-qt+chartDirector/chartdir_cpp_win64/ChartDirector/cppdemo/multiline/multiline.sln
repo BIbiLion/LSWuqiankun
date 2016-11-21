@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2068CBAF-2C04-3CB9-D3DC-C6D3B39D8B39}") = "multiline", "multiline.vcproj", "{C25B77F4-3362-EE44-F868-6F23B3794C01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C25B77F4-3362-EE44-F868-6F23B3794C01}.Debug|x64.ActiveCfg = Debug|x64
+		{C25B77F4-3362-EE44-F868-6F23B3794C01}.Debug|x64.Build.0 = Debug|x64
+		{C25B77F4-3362-EE44-F868-6F23B3794C01}.Release|x64.ActiveCfg = Release|x64
+		{C25B77F4-3362-EE44-F868-6F23B3794C01}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

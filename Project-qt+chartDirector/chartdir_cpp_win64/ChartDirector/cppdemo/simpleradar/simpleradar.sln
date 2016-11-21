@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{C4BDB22E-7DA8-3A99-43D4-21E534AA4EB7}") = "simpleradar", "simpleradar.vcproj", "{63706633-FC8E-7B03-C99F-084D1E3E185C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63706633-FC8E-7B03-C99F-084D1E3E185C}.Debug|x64.ActiveCfg = Debug|x64
+		{63706633-FC8E-7B03-C99F-084D1E3E185C}.Debug|x64.Build.0 = Debug|x64
+		{63706633-FC8E-7B03-C99F-084D1E3E185C}.Release|x64.ActiveCfg = Release|x64
+		{63706633-FC8E-7B03-C99F-084D1E3E185C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

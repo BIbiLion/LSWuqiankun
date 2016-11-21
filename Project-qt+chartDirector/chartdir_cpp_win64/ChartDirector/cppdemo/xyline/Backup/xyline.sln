@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAF2A599-7038-67B3-ADF7-85123F205F4A}") = "xyline", "xyline.vcproj", "{D60A6FF9-F897-A814-7F43-295E0BF8BB55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D60A6FF9-F897-A814-7F43-295E0BF8BB55}.Debug|x64.ActiveCfg = Debug|x64
+		{D60A6FF9-F897-A814-7F43-295E0BF8BB55}.Debug|x64.Build.0 = Debug|x64
+		{D60A6FF9-F897-A814-7F43-295E0BF8BB55}.Release|x64.ActiveCfg = Release|x64
+		{D60A6FF9-F897-A814-7F43-295E0BF8BB55}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

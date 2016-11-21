@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FC7150DD-E9FD-A0C8-EED6-2C771029DF13}") = "anglepie", "anglepie.vcproj", "{1EB4217E-5266-2B5D-1B09-660A4CE09383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB4217E-5266-2B5D-1B09-660A4CE09383}.Debug|x64.ActiveCfg = Debug|x64
+		{1EB4217E-5266-2B5D-1B09-660A4CE09383}.Debug|x64.Build.0 = Debug|x64
+		{1EB4217E-5266-2B5D-1B09-660A4CE09383}.Release|x64.ActiveCfg = Release|x64
+		{1EB4217E-5266-2B5D-1B09-660A4CE09383}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

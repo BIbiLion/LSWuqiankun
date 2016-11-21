@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{96558A37-DE08-AB27-DC3F-B26F257D05A2}") = "surfacelighting", "surfacelighting.vcproj", "{97DCEEF4-21CD-E6B8-31FF-80B691321799}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97DCEEF4-21CD-E6B8-31FF-80B691321799}.Debug|x64.ActiveCfg = Debug|x64
+		{97DCEEF4-21CD-E6B8-31FF-80B691321799}.Debug|x64.Build.0 = Debug|x64
+		{97DCEEF4-21CD-E6B8-31FF-80B691321799}.Release|x64.ActiveCfg = Release|x64
+		{97DCEEF4-21CD-E6B8-31FF-80B691321799}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

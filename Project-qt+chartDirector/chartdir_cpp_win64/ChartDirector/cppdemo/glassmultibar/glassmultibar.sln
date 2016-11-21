@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D4B0BADE-222D-5256-40D3-E18DAD2748FC}") = "glassmultibar", "glassmultibar.vcproj", "{8F86EFF3-93A6-84AC-86D6-3643D7E3F6EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F86EFF3-93A6-84AC-86D6-3643D7E3F6EE}.Debug|x64.ActiveCfg = Debug|x64
+		{8F86EFF3-93A6-84AC-86D6-3643D7E3F6EE}.Debug|x64.Build.0 = Debug|x64
+		{8F86EFF3-93A6-84AC-86D6-3643D7E3F6EE}.Release|x64.ActiveCfg = Release|x64
+		{8F86EFF3-93A6-84AC-86D6-3643D7E3F6EE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

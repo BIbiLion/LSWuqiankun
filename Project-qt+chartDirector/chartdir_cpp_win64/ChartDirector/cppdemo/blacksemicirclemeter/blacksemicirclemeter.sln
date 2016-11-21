@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{5FCE8767-EA8E-B13D-CD01-466386BD411E}") = "blacksemicirclemeter", "blacksemicirclemeter.vcproj", "{77312931-7436-7345-277F-5A7FACF87B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77312931-7436-7345-277F-5A7FACF87B51}.Debug|x64.ActiveCfg = Debug|x64
+		{77312931-7436-7345-277F-5A7FACF87B51}.Debug|x64.Build.0 = Debug|x64
+		{77312931-7436-7345-277F-5A7FACF87B51}.Release|x64.ActiveCfg = Release|x64
+		{77312931-7436-7345-277F-5A7FACF87B51}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
