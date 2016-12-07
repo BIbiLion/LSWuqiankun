@@ -10,6 +10,7 @@ INPUT(
 ./release\meterwidget.o
 ./release\realtimedemo.o
 ./release\xylinewidget.o
+./release\clockqt.o
 ./release\moc_widget.o
 ./release\moc_qchartviewer.o
 ./release\moc_cdefinechart.o
@@ -20,4 +21,5 @@ INPUT(
 ./release\moc_meterwidget.o
 ./release\moc_realtimedemo.o
 ./release\moc_xylinewidget.o
+./release\moc_clockqt.o
 );

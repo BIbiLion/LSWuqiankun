@@ -26,7 +26,8 @@ SOURCES +=\
     config.cpp \
     meterwidget.cpp \
     realtimedemo.cpp \
-    xylinewidget.cpp
+    xylinewidget.cpp \
+    clockqt.cpp
 
 HEADERS  += widget.h \
     qchartviewer.h \
@@ -37,7 +38,8 @@ HEADERS  += widget.h \
     config.h \
     meterwidget.h \
     realtimedemo.h \
-    xylinewidget.h
+    xylinewidget.h \
+    clockqt.h
 
 FORMS    += widget.ui
 

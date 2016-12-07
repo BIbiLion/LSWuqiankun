@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/pageone">
+        <file alias="selected.png">resource/1/浏览.png</file>
+        <file>resource/1/内容.png</file>
+        <file>resource/1/取消.png</file>
+        <file>resource/1/下一步.png</file>
+        <file>resource/1/页眉.png</file>
+        <file>resource/1/关闭.png</file>
+    </qresource>
+    <qresource prefix="/pageTwo">
+        <file>resource/2/1.png</file>
+        <file>resource/2/破碎加密.png</file>
+        <file>resource/2/选择.png</file>
+        <file>C:/Users/Administrator/Desktop/最小化.png</file>
+    </qresource>
+    <qresource prefix="/pageThree">
+        <file>resource/3/破解加密.png</file>
+        <file>resource/3/确定.png</file>
+    </qresource>
+</RCC>

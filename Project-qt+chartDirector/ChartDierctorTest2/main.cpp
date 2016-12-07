@@ -9,6 +9,8 @@
 #include "realtimedemo.h"
 
 #include"xylinewidget.h"
+
+#include "clockqt.h"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -26,6 +28,8 @@ int main(int argc, char *argv[])
     XYLineWidget xy;
     xy.show();
 
+    Clockqt cqt;
+    cqt.show();
 
     return a.exec();
 }
