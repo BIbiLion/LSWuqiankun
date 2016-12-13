@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\bin\Debug\Test.exe
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\bin\Debug\Test.pdb
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\bin\Debug\PieChart.dll
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\bin\Debug\PieChart.pdb
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\obj\Debug\TestPieChart.Form1.resources
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\obj\Debug\Test.exe
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Test\obj\Debug\Test.pdb

@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/12/13 17:03:00。
+     1>项目“C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\MFCDemo\MFCDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCDemo.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Debug\EcgShow.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib MFCDemo.cpp MFCDemoDlg.cpp
+         MFCDemo.cpp
+         MFCDemoDlg.cpp
+     1>MFCDemoDlg.cpp(170): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Administrator\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\MFCDemo.res" MFCDemo.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Debug\MFCDemo.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Debug\MFCDemo.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Debug\MFCDemo.res
+         Debug\MFCDemo.obj
+         Debug\MFCDemoDlg.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         MFCDemo.vcxproj -> C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\Debug\MFCDemo.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\MFCDemo\MFCDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.99

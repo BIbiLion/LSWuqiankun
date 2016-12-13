@@ -1,0 +1,62 @@
+  EcgShow.EcgShow.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v2.0.50727
+Assembly EcgShow, Version=2015.10.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class EcgShow.EcgShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label lblName : Public
+    System.Windows.Forms.Label l_f : Public
+    Double n_frequency : Public
+    System.Drawing.Color cBack : Public
+    System.Drawing.Color cLine : Public
+    System.Drawing.Color cPoint : Public
+    Int32 x : Public
+    Int32 y : Public
+    Int32 bx : Public
+    Int32 by : Public
+    Double change_y : Public
+    Int32 change_n : Public
+    Double change_nV : Public
+    Int32 change_h : Public
+    Double change_x : Public
+    Int32 n_range : Public
+    Int32 n_compress : Public
+    Int32 n_compressn : Public
+    Int32 n_step : Public
+    Int32 n_count : Public
+    Int32 n_Btime : Public
+  Properties:
+    Int32 SampleV 'get set' : 
+    Int32 SampleR 'get set' : 
+    Double SampleF 'get set' : 
+  Methods:
+    set_SampleV(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SampleV(): PrivateScope, Public, HideBySig, SpecialName
+    set_SampleR(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SampleR(): PrivateScope, Public, HideBySig, SpecialName
+    set_SampleF(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_SampleF(): PrivateScope, Public, HideBySig, SpecialName
+    CreateCompatibleDC(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SelectObject(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    BitBlt(IntPtr, Int32, Int32, Int32, Int32, IntPtr, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DeleteObject(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    InitDraw(): PrivateScope, Public, HideBySig
+    UnitDraw(): PrivateScope, Public, HideBySig
+    DrawWave(Int32, Int32): PrivateScope, Public, HideBySig
+    AddPointS(Int32): PrivateScope, Public, HideBySig
+    AddPointNS(Int32): PrivateScope, Public, HideBySig
+    AddPointFG(Int32): PrivateScope, Public, HideBySig
+    AddPointG(Int32): PrivateScope, Public, HideBySig
+    ScreenMove(): PrivateScope, Public, HideBySig
+    ScreenResh(): PrivateScope, Public, HideBySig
+    AutoResize(): PrivateScope, Public, HideBySig

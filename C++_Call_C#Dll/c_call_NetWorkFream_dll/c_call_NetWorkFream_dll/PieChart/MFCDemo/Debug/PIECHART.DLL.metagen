@@ -1,0 +1,215 @@
+  System.Drawing.PieChart.PieChartControl.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v2.0.50727
+Assembly PieChart, Version=1.5.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class System.Drawing.PieChart.ColorArray: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Add(Color): PrivateScope, Public, HideBySig
+    Get(): PrivateScope, Public, HideBySig
+Class System.Drawing.PieChart.DecimalArray: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Add(Double): PrivateScope, Public, HideBySig
+    Get(): PrivateScope, Public, HideBySig
+Class System.Drawing.PieChart.StringArray: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Add(String): PrivateScope, Public, HideBySig
+    Get(): PrivateScope, Public, HideBySig
+Class System.Drawing.PieChart.FloatArray: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Add(Single): PrivateScope, Public, HideBySig
+    Get(): PrivateScope, Public, HideBySig
+Class System.Drawing.PieChart.PieSliceArray: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Add(PieSlice): PrivateScope, Public, HideBySig
+    Get(): PrivateScope, Public, HideBySig
+Struct System.Drawing.GraphicsUtil: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Methods:
+    IncludePoint(RectangleF&, PointF): PrivateScope, Public, Static, HideBySig
+    IncludePointX(RectangleF&, Single): PrivateScope, Public, Static, HideBySig
+    IncludePointY(RectangleF&, Single): PrivateScope, Public, Static, HideBySig
+Class System.Drawing.PieChart.PieChart3D: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Single, Single, Single, Single, System.Decimal[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, Single, Single, Single, System.Decimal[], Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.RectangleF, System.Decimal[], Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, Single, Single, Single, System.Decimal[], System.Drawing.Color[], Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.RectangleF, System.Decimal[], System.Drawing.Color[], Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, Single, Single, Single, System.Decimal[], System.Drawing.Color[], Single, System.String[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, Single, Single, Single, System.Decimal[], Single, System.String[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Decimal[] Values 'set' : 
+    System.Drawing.Color[] Colors 'set' : 
+    System.String[] Texts 'set' : 
+    System.Drawing.Font Font 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    System.Drawing.PieChart.EdgeColorType EdgeColorType 'set' : 
+    Single EdgeLineWidth 'set' : 
+    Single SliceRelativeHeight 'set' : 
+    Single SliceRelativeDisplacement 'set' : 
+    Single[] SliceRelativeDisplacements 'set' : 
+    System.Drawing.SizeF ChartSize 'set' : 
+    Single Width 'get set' : 
+    Single Height 'get set' : 
+    Single Top 'get ' : 
+    Single Bottom 'get ' : 
+    Single Left 'get ' : 
+    Single Right 'get ' : 
+    Single X   'get set' : 
+    Single Y   'get set' : 
+    System.Drawing.PieChart.ShadowStyle ShadowStyle 'set' : 
+    Boolean FitToBoundingRectangle 'set' : 
+    Single InitialAngle 'set' : 
+    Int32 HighlightedIndex 'set' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    set_Values(Decimal[]): PrivateScope, Public, HideBySig, SpecialName
+    set_Colors(Color[]): PrivateScope, Public, HideBySig, SpecialName
+    set_Texts(String[]): PrivateScope, Public, HideBySig, SpecialName
+    get_Font(): PrivateScope, Public, HideBySig, SpecialName
+    set_Font(Font): PrivateScope, Public, HideBySig, SpecialName
+    get_ForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    set_EdgeColorType(EdgeColorType): PrivateScope, Public, HideBySig, SpecialName
+    set_EdgeLineWidth(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_SliceRelativeHeight(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_SliceRelativeDisplacement(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_SliceRelativeDisplacements(Single[]): PrivateScope, Public, HideBySig, SpecialName
+    set_ChartSize(SizeF): PrivateScope, Public, HideBySig, SpecialName
+    get_Width(): PrivateScope, Public, HideBySig, SpecialName
+    set_Width(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    set_Height(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Top(): PrivateScope, Public, HideBySig, SpecialName
+    get_Bottom(): PrivateScope, Public, HideBySig, SpecialName
+    get_Left(): PrivateScope, Public, HideBySig, SpecialName
+    get_Right(): PrivateScope, Public, HideBySig, SpecialName
+    get_X(): PrivateScope, Public, HideBySig, SpecialName
+    set_X(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Y(): PrivateScope, Public, HideBySig, SpecialName
+    set_Y(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_ShadowStyle(ShadowStyle): PrivateScope, Public, HideBySig, SpecialName
+    set_FitToBoundingRectangle(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    set_InitialAngle(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_HighlightedIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Draw(Graphics): PrivateScope, Public, HideBySig
+    PlaceTexts(Graphics): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FindPieSliceUnderPoint(PointF): PrivateScope, Public, HideBySig
+Class System.Drawing.PieChart.PieChartControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Panel
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Single LeftMargin 'set' : 
+    Single RightMargin 'set' : 
+    Single TopMargin 'set' : 
+    Single BottomMargin 'set' : 
+    Boolean FitChart 'set' : 
+    System.Decimal[] Values 'set' : 
+    System.Drawing.Color[] Colors 'set' : 
+    Single[] SliceRelativeDisplacements 'set' : 
+    System.String[] ToolTips 'get set' : 
+    System.String[] Texts 'set' : 
+    Single SliceRelativeHeight 'set' : 
+    System.Drawing.PieChart.ShadowStyle ShadowStyle 'set' : 
+    System.Drawing.PieChart.EdgeColorType EdgeColorType 'set' : 
+    Single EdgeLineWidth 'set' : 
+    Single InitialAngle 'set' : 
+  Methods:
+    set_LeftMargin(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_RightMargin(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_TopMargin(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_BottomMargin(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_FitChart(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    set_Values(Decimal[]): PrivateScope, Public, HideBySig, SpecialName
+    set_Colors(Color[]): PrivateScope, Public, HideBySig, SpecialName
+    set_SliceRelativeDisplacements(Single[]): PrivateScope, Public, HideBySig, SpecialName
+    set_ToolTips(String[]): PrivateScope, Public, HideBySig, SpecialName
+    get_ToolTips(): PrivateScope, Public, HideBySig, SpecialName
+    set_Texts(String[]): PrivateScope, Public, HideBySig, SpecialName
+    set_SliceRelativeHeight(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_ShadowStyle(ShadowStyle): PrivateScope, Public, HideBySig, SpecialName
+    set_EdgeColorType(EdgeColorType): PrivateScope, Public, HideBySig, SpecialName
+    set_EdgeLineWidth(Single): PrivateScope, Public, HideBySig, SpecialName
+    set_InitialAngle(Single): PrivateScope, Public, HideBySig, SpecialName
+Class System.Drawing.PieChart.PieSlice: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Single, Single, Single, Single, Single, Single, System.Drawing.Color): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, Single, Single, Single, Single, Single, Single, System.Drawing.Color, System.Drawing.PieChart.ShadowStyle, System.Drawing.PieChart.EdgeColorType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.RectangleF, Single, Single, Single, System.Drawing.Color, System.Drawing.PieChart.ShadowStyle, System.Drawing.PieChart.EdgeColorType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Single, Single, Single, Single, Single, Single, Single, System.Drawing.Color, System.Drawing.PieChart.ShadowStyle, System.Drawing.PieChart.EdgeColorType, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Rectangle, Single, Single, Single, System.Drawing.Color, System.Drawing.PieChart.ShadowStyle, System.Drawing.PieChart.EdgeColorType, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+    System.ICloneable
+  Properties:
+    Single StartAngle 'get ' : 
+    Single SweepAngle 'get ' : 
+    Single EndAngle 'get ' : 
+    System.String Text 'get set' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Clone(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_StartAngle(): PrivateScope, Public, HideBySig, SpecialName
+    get_SweepAngle(): PrivateScope, Public, HideBySig, SpecialName
+    get_EndAngle(): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+    Draw(Graphics): PrivateScope, Public, HideBySig
+    Contains(PointF): PrivateScope, Public, HideBySig
+    GetTextPosition(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Drawing.Quadrilateral: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Drawing.PointF, System.Drawing.PointF, System.Drawing.PointF, System.Drawing.PointF, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Drawing.Quadrilateral Empty : Public, Static, InitOnly
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Draw(Graphics, Pen, Brush): PrivateScope, Public, HideBySig
+    Contains(PointF): PrivateScope, Public, HideBySig
+    Contains(PointF, PointF[]): PrivateScope, Public, Static, HideBySig
+Struct System.Drawing.PieChart.ShadowStyle: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Drawing.PieChart.ShadowStyle NoShadow = 0 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.ShadowStyle UniformShadow = 1 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.ShadowStyle GradualShadow = 2 : Public, Static, Literal, HasDefault
+Struct System.Drawing.PieChart.EdgeColorType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Drawing.PieChart.EdgeColorType NoEdge = 0 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType SystemColor = 1 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType SurfaceColor = 2 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType DarkerThanSurface = 3 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType DarkerDarkerThanSurface = 4 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType LighterThanSurface = 5 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType LighterLighterThanSurface = 6 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType Contrast = 7 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType EnhancedContrast = 8 : Public, Static, Literal, HasDefault
+    System.Drawing.PieChart.EdgeColorType FullContrast = 9 : Public, Static, Literal, HasDefault
+Struct System.Drawing.PieChart.EdgeColor: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Methods:
+    GetRenderingColor(EdgeColorType, Color): PrivateScope, Public, Static, HideBySig
+Struct System.Drawing.PieChart.ColorUtil: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Single BrightnessEnhancementFactor1 : Public, Static, InitOnly
+    Single BrightnessEnhancementFactor2 : Public, Static, InitOnly
+  Methods:
+    CreateColorWithCorrectedLightness(Color, Single): PrivateScope, Public, Static, HideBySig

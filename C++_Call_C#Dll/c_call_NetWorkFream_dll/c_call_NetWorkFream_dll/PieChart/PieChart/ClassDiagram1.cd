@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Drawing.PieChart.ColorArray" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>DataTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Drawing.PieChart.DecimalArray" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Drawing.PieChart.StringArray" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Drawing.PieChart.FloatArray" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Drawing.PieChart.PieSliceArray" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Drawing.PieChart.PieChart3D" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMAAARAAZGAEAxAKQAEUAnAAkSYKFBEaCACgoAIC8JY=</HashCode>
+      <FileName>PieChart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Drawing.PieChart.PieChartControl">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EECgBJAoADAEAUiIAEBEAGQBkBQCADACAEgggCAAEKA=</HashCode>
+      <FileName>PieChartControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Drawing.PieChart.PieSlice" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="System.Drawing.PieChart.PieSlice.PeripherySurfaceBounds" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PieSlice.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CIFCaByQhiwgEgJFAAIQBZIAiQAJANCSBDAoDYCQGFA=</HashCode>
+      <FileName>PieSlice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Drawing.Quadrilateral" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAIIBAAAAAAAAABAAAAAEAAAQAAA=</HashCode>
+      <FileName>Quadrilateral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="System.Drawing.PieChart.EdgeColor" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="System.Drawing.PieChart.ColorUtil" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAEACAAA=</HashCode>
+      <FileName>Util.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="System.Drawing.GraphicsUtil" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>GraphicsUtil.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="System.Drawing.PieChart.ShadowStyle" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="System.Drawing.PieChart.EdgeColorType" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABgAIAEAAAAAgAAAAAAAAAAAAAQBQAwAAAA=</HashCode>
+      <FileName>Util.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

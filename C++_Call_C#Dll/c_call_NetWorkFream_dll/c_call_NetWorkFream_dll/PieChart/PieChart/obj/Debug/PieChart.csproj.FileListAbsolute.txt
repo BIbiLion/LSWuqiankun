@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\PieChart\bin\Debug\PieChart.dll
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\PieChart\bin\Debug\PieChart.pdb
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\PieChart\obj\Debug\System.Drawing.PieChart.PieChartControl.resources
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\PieChart\obj\Debug\PieChart.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\PieChart\obj\Debug\PieChart.dll
+C:\Users\Administrator\Desktop\[www_pin5i_com]Demo\PieChart\PieChart\obj\Debug\PieChart.pdb

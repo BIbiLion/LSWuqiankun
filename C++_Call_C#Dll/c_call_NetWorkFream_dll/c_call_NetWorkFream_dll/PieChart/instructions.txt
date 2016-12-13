@@ -1,0 +1,27 @@
+how to:
+  1. the ManagedCode.h file should be included where you want to
+     use PieChart3D or PieChartControl, because necessary headers and namespaces are included      or declared as using here;
+
+  2. when use PieChartControl, the variable should be stated like this(see the 19th line in MFCDemoDlg.h):
+     CWinFormsControl<System::Drawing::PieChart::PieChartControl> m_pieChartControl;
+     as to other WinFormsControl, just substitute what's surrounded by '<' and '>';
+
+     The following line shold be added to DoDataExchange(some comment is added to MFCDemoDlg.cpp)
+     Microsoft::VisualC::MFC::DDX_ManagedControl(pDX, IDC_PLACEHOLDER, m_pieChartControl);
+     the IDC_PLACEHOLDER is the ID for m_pieChartControl
+
+  3. when pass data to PieChart3D, you should use classes defined in DataTypes.cs(for this demo).
+     this is to solve type problems. And for now double value is used as decimal, it's ok
+     if precision requirement is not that critical.
+
+  4. you can see MFCTestDlg.h and MFCTestDlg.cpp for details
+
+  5. set the project with /clr support
+
+  6. Use of MFC should be set as "Use MFC in a Shared DLL"
+
+
+platform windows xp & visual studio 2005
+platfor windows 7 & visual studio 2008(without sp1)
+
+demonstrate how to use WinForm controls(C#) in MFC(C++)
