@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/db">
+        <file>chinese.db</file>
+        <file>mutil_pinyin.db</file>
+        <file>pinyin.db</file>
+    </qresource>
+</RCC>
