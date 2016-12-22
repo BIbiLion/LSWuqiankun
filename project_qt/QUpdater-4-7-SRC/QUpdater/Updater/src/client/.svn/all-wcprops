@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/qupdater/!svn/ver/99/Updater/src/client
+END
+InstallThread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/qupdater/!svn/ver/99/Updater/src/client/InstallThread.cpp
+END
+aboutdlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/qupdater/!svn/ver/34/Updater/src/client/aboutdlg.cpp
+END
+downloadprogress.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/qupdater/!svn/ver/34/Updater/src/client/downloadprogress.h
+END
+historyshow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/qupdater/!svn/ver/96/Updater/src/client/historyshow.cpp
+END
+InstallThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/qupdater/!svn/ver/99/Updater/src/client/InstallThread.h
+END
+updaterclient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/qupdater/!svn/ver/97/Updater/src/client/updaterclient.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/qupdater/!svn/ver/52/Updater/src/client/main.cpp
+END
+aboutdlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/qupdater/!svn/ver/34/Updater/src/client/aboutdlg.h
+END
+historyshow.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/qupdater/!svn/ver/96/Updater/src/client/historyshow.h
+END
+updaterclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/qupdater/!svn/ver/96/Updater/src/client/updaterclient.h
+END
+downloadprogress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/qupdater/!svn/ver/97/Updater/src/client/downloadprogress.cpp
+END

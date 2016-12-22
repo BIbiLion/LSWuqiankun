@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svnroot/qupdater/!svn/ver/96/include
+END
+WindowPos.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/qupdater/!svn/ver/2/include/WindowPos.h
+END
+PlatformFunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/qupdater/!svn/ver/96/include/PlatformFunctions.h
+END
+CommonFtpOperFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/qupdater/!svn/ver/64/include/CommonFtpOperFunction.h
+END
+Markup.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/qupdater/!svn/ver/2/include/Markup.h
+END
+MfcRegOperator.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/qupdater/!svn/ver/93/include/MfcRegOperator.h
+END
+global.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/qupdater/!svn/ver/93/include/global.h
+END
+FtpThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/qupdater/!svn/ver/66/include/FtpThread.h
+END
+CommonFileOperFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/qupdater/!svn/ver/2/include/CommonFileOperFunction.h
+END
+MD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/qupdater/!svn/ver/2/include/MD5.h
+END
+WexTextCodecPlugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/qupdater/!svn/ver/2/include/WexTextCodecPlugin.h
+END
+pubfuncs.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/qupdater/!svn/ver/88/include/pubfuncs.h
+END
+MBCSUNICODESTD.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/qupdater/!svn/ver/92/include/MBCSUNICODESTD.h
+END
+TrayWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/qupdater/!svn/ver/96/include/TrayWindow.h
+END

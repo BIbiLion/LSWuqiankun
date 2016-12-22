@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB18030" ?>
+<Root>
+    <EachSoft LastDate="200802270911" Name="PBECA2008">
+        <InstalledPacks>
+        </InstalledPacks>
+    </EachSoft>注释： 文件名称：软件升级信息记录文件 数据结构： 软件名称 版本日期记录 已经安装的补丁 Pack 发布日期(publishtime) 文件名(filename) 文件大小(size) md5(md5) 说明(info) 补丁名称(name)
+</Root>

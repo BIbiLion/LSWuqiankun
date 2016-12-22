@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/qupdater/!svn/ver/15/QtPatch/src/network
+END
+qftp.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qupdater/!svn/ver/14/QtPatch/src/network/qftp.h
+END
+qftp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/qupdater/!svn/ver/15/QtPatch/src/network/qftp.cpp
+END
+MARKS.log
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/qupdater/!svn/ver/15/QtPatch/src/network/MARKS.log
+END

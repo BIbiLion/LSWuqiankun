@@ -1,0 +1,30 @@
+如何配置QUpdater运行环境
+
+一，预先准备
+1，Qt-4-3-4
+2，Qt-Intergration for MSVC （如果没有，则需要手动配置vc2005的compile rules）
+3，MSVC2005
+4，FTP-Server（etc. server-U）
+
+二，编译环境
+1，覆盖QtPath内的文件到相关目录
+2，参考configure的help，利用vc2005编译器静态编译qt库(-static，因为vc2005的sln工程按照static建立)
+
+三，服务器配置，以serveU为例
+1，建立两个用户，Client以及Manager，分别用于客户端和管理端的登陆，用户名和密码的选取可以更改对应的源代码
+2，两个用户的初始目录均为FTP上设置的升级用的目录，例如，D：/FTP/Update为升级的目录也为用户的初始目录
+3，拷贝Updater/bin/server.plist到该目录中
+
+四，编译程序
+1，打开VisualC下面的sln文件，先编译QUpdaterManager模块
+2，编译成功后，即可利用该exe管理服务器上的数据
+3，QUpdaterClient为主客户端
+4，QUpdaterXmlGen模块为生成客户端信息文件的dll，由于是在windows上面，所以是MFCDLL
+
+五，附
+1，bin下面的serverdata为ftp的服务器的ip以及端口，如果没有该文件，则客户端按照默认的192.168.0.6：21进行连接
+2，datafile中保存的是客户端的数据文件
+3，由于本项目是在为PKPM开发在线升级的功能基础上开源，不可避免会有些例如注册表、默认名称的按照公司要求书写
+
+六，联系
+1，MSN&EMAIL: wybolf@hotmail.com

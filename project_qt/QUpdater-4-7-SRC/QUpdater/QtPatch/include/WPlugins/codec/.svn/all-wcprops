@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qupdater/!svn/ver/14/QtPatch/include/WPlugins/codec
+END
+plugincodecs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/qupdater/!svn/ver/14/QtPatch/include/WPlugins/codec/plugincodecs
+END
+plugincodecs.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/qupdater/!svn/ver/14/QtPatch/include/WPlugins/codec/plugincodecs.h
+END

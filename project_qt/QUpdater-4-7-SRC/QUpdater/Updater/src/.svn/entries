@@ -1,0 +1,97 @@
+8
+
+dir
+102
+https://qupdater.svn.sourceforge.net/svnroot/qupdater/Updater/src
+https://qupdater.svn.sourceforge.net/svnroot/qupdater
+
+
+
+2008-04-07T07:06:19.637314Z
+100
+xbbbbb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e4f8f40b-4547-0410-9aea-ec6b9b95b097
+
+ClientCenter.cpp
+file
+
+
+
+
+2008-03-25T08:10:43.984375Z
+d7c76b038186da14e818a53d0c419c1c
+2008-03-21T10:49:03.724779Z
+63
+xbbbbb
+
+UpdateXmlPlist.cpp
+file
+
+
+
+
+2008-04-07T07:36:25.500000Z
+12e9f7ea777cf39433cb3254982de4b1
+2008-04-07T06:55:08.384940Z
+99
+xbbbbb
+
+dataFromFile.h
+file
+
+
+
+
+2008-04-07T07:36:25.546875Z
+a2729be3cfc0cd6f0b4469f827d2a716
+2008-03-28T03:12:22.508713Z
+88
+xbbbbb
+
+ClientCenter.h
+file
+
+
+
+
+2008-03-25T08:10:44.015625Z
+ef629e254b271bacba5bbc1d25b1e53a
+2008-03-21T10:49:03.724779Z
+63
+xbbbbb
+
+UpdateXmlPlist.h
+file
+
+
+
+
+2008-04-07T07:36:25.578125Z
+f26e468789445455306f70c985657da0
+2008-04-02T11:17:50.320450Z
+96
+xbbbbb
+
+server
+dir
+
+clientxmlgen
+dir
+
+client
+dir
+

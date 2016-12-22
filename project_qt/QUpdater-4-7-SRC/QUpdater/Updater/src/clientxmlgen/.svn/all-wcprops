@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/qupdater/!svn/ver/98/Updater/src/clientxmlgen
+END
+UpdaterClientXmlGen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/qupdater/!svn/ver/85/Updater/src/clientxmlgen/UpdaterClientXmlGen.cpp
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/qupdater/!svn/ver/47/Updater/src/clientxmlgen/stdafx.h
+END
+CClientXmlGenerater.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/qupdater/!svn/ver/98/Updater/src/clientxmlgen/CClientXmlGenerater.cpp
+END
+UpdaterClientXmlGen.rc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/qupdater/!svn/ver/2/Updater/src/clientxmlgen/UpdaterClientXmlGen.rc
+END
+CClientXmlValidate.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/qupdater/!svn/ver/2/Updater/src/clientxmlgen/CClientXmlValidate.h
+END
+UpdaterClientXmlGen.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/qupdater/!svn/ver/2/Updater/src/clientxmlgen/UpdaterClientXmlGen.h
+END
+CClientXmlGenerater.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/qupdater/!svn/ver/78/Updater/src/clientxmlgen/CClientXmlGenerater.h
+END
+UpdateClientXmlGenFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/qupdater/!svn/ver/2/Updater/src/clientxmlgen/UpdateClientXmlGenFactory.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/qupdater/!svn/ver/2/Updater/src/clientxmlgen/stdafx.cpp
+END
+CClientXmlValidate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/qupdater/!svn/ver/2/Updater/src/clientxmlgen/CClientXmlValidate.cpp
+END
+Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/qupdater/!svn/ver/2/Updater/src/clientxmlgen/Resource.h
+END

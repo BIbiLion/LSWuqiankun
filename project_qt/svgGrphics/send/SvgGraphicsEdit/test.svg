@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="3.52778cm" height="3.52778cm"
+ viewBox="0 0 100 100"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt Svg Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" vector-effect="non-scaling-stroke" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="宋体" font-size="9pt" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M136.5,55 C75.4725,55 26,63.0029 26,72.875 C26,82.7471 75.4725,90.75 136.5,90.75 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="宋体" font-size="9pt" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="宋体" font-size="9pt" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M136.5,90.75 C75.4725,90.75 26,98.7529 26,108.625 C26,118.497 75.4725,126.5 136.5,126.5 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="宋体" font-size="9pt" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="宋体" font-size="9pt" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M136.5,126.5 C75.4725,126.5 26,134.503 26,144.375 C26,154.247 75.4725,162.25 136.5,162.25 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="宋体" font-size="9pt" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="宋体" font-size="9pt" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M136.5,162.25 C75.4725,162.25 26,170.253 26,180.125 C26,189.997 75.4725,198 136.5,198 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="宋体" font-size="9pt" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" points="136.5,37.125 136.5,215.875 " />
+<polyline fill="none" points="136.5,55 247,55 " />
+<polyline fill="none" points="136.5,198 247,198 " />
+</g>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/qupdater/!svn/ver/100/Updater/src
+END
+ClientCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/qupdater/!svn/ver/63/Updater/src/ClientCenter.cpp
+END
+UpdateXmlPlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qupdater/!svn/ver/99/Updater/src/UpdateXmlPlist.cpp
+END
+dataFromFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qupdater/!svn/ver/88/Updater/src/dataFromFile.h
+END
+ClientCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qupdater/!svn/ver/63/Updater/src/ClientCenter.h
+END
+UpdateXmlPlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/qupdater/!svn/ver/96/Updater/src/UpdateXmlPlist.h
+END

@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "NsisTestDll", "NsisTestDll.dsp", "{966EBDE2-35E1-4EF1-8669-A4C8680D689E}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+8
+
+dir
+102
+https://qupdater.svn.sourceforge.net/svnroot/qupdater/Updater/include
+https://qupdater.svn.sourceforge.net/svnroot/qupdater
+
+
+
+2008-04-07T06:55:08.384940Z
+99
+xbbbbb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e4f8f40b-4547-0410-9aea-ec6b9b95b097
+
+clientxmlgen
+dir
+
+ApplicationSington.h
+file
+
+
+
+
+2008-04-07T07:36:21.437500Z
+67b5c45ad4a295ea8bd0611bb5e03296
+2008-03-28T03:12:22.508713Z
+88
+xbbbbb
+
+IClientCenter.h
+file
+
+
+
+
+2008-04-07T07:36:21.468750Z
+169847bb85855e9f75018bc5345c4719
+2008-04-02T11:17:50.320450Z
+96
+xbbbbb
+
+IUpdateXmlPlist.h
+file
+
+
+
+
+2008-04-07T07:36:21.515625Z
+2b1804583f4d3bfa82ae68710aad6035
+2008-04-07T06:55:08.384940Z
+99
+xbbbbb
+

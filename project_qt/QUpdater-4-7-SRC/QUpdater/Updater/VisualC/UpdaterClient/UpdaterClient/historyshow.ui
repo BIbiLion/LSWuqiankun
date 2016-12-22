@@ -1,0 +1,30 @@
+<ui version="4.0" >
+ <class>HistoryShowClass</class>
+ <widget class="QDialog" name="HistoryShowClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>460</width>
+    <height>263</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>HistoryShow</string>
+  </property>
+  <layout class="QGridLayout" >
+   <property name="margin" >
+    <number>9</number>
+   </property>
+   <property name="spacing" >
+    <number>6</number>
+   </property>
+   <item row="0" column="0" >
+    <widget class="QTreeView" name="treeHistory" />
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

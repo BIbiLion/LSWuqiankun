@@ -1,0 +1,23 @@
+QUpdater
+
+编译方法：
+1，下载Qt opensource 4.3.4
+2，将QtPatch里面的东西覆盖到Qt对应的目录中
+	注：主要是一个修改了QFtp类，增加的断点续传的功能
+3，利用vc2005静态编译Qt库
+4，打开Updater::VisualC::UpdaterClient里面的工程文件，即可编译
+
+测试环境配置
+1，修改FTP地址:
+	将Data目录下的serverdata文件拷贝到和exe同级目录，修改里面的IP以及端口号
+	默认的用户名以及密码写死在程序里，以防止不必要的错误。（默认为usr: Client pwd:Client）
+2，文件组织
+	服务器上，根目录为Update，其中放置server.plist文件，利用xml编译器打开，该文件显示服务器上存在的补丁包信息
+	客户端，需要维护的是与exe同级的recipe.plist文件，保存的是客户端的升级信息
+3，NSIS
+	通常一般的打包即可，为了配合自动升级，脚本里需要修改客户端的recipe.plist文件，以保留升级信息。
+	并且，为了安装进度显示，需要调用Docs/NSIS相关/Plugins下的NsisTestDll中的Test函数，利用stdout技术，与升级exe程序同步进度信息，刷新实时的进度条
+	（NsisTestDll为仿写的NSIS Plugin）
+
+备查技术:
+	QFtp的使用，QThread结合QProcess的使用，Sington Application（唯一进程实体），NSIS XML，NSIS plugin，QXmlStreamReader，带checkbox的treeview（模拟带checkbox的listctrl-mfc），Tray Application，MD5

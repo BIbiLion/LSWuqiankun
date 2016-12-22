@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Param>
+    <ConnDBParam>
+        <Driver>QMYSQL</Driver>
+        <DBServer>127.0.0.1</DBServer>
+        <UserName>fh5000</UserName>
+        <Password>fh5000</Password>
+        <DataBase>fh5000db</DataBase>
+    </ConnDBParam>
+</Param>

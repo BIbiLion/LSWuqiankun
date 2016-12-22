@@ -1,0 +1,290 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\UpdaterMaker.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\UpdaterMaker.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 UpdaterMaker"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "UpdaterMaker 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_UPDATERMAKER_DIALOG DIALOGEX 0, 0, 320, 448
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "UpdaterMaker"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,265,178,50,14
+    PUSHBUTTON      "生成",IDC_BUTTON_Make1,211,399,50,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_FileName,45,5,216,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览",IDC_BUTTON_Browse,265,5,50,14
+    EDITTEXT        IDC_EDIT_Intro,6,93,308,79,ES_MULTILINE | ES_AUTOVSCROLL
+    LTEXT           "说明:",IDC_STATIC_Intro,6,78,21,8
+    LTEXT           "生成文件:",IDC_STATIC_FileName,5,8,37,8
+    LTEXT           "软件名称:",IDC_STATIC_SoftName,5,46,37,8
+    EDITTEXT        IDC_EDIT_PathName,45,25,98,14,ES_AUTOHSCROLL
+    LTEXT           "补丁名:",IDC_STATIC_PathName,8,28,29,8
+    COMBOBOX        IDC_COMBO_SoftName,45,43,98,90,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "下一步",IDC_BUTTON_Next,211,178,50,14
+    CONTROL         "List1",IDC_LIST_Files,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | NOT WS_VISIBLE | WS_BORDER | 
+                    WS_TABSTOP,90,245,224,150
+    LISTBOX         IDC_LIST_Group,6,246,76,149,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "+",IDC_BUTTON_AddGroup,7,227,14,14,NOT WS_VISIBLE
+    PUSHBUTTON      "+",IDC_BUTTON_AddFiles,90,227,14,14,NOT WS_VISIBLE
+    PUSHBUTTON      "-",IDC_BUTTON_DelGroup,25,227,14,14,NOT WS_VISIBLE
+    PUSHBUTTON      "修改",IDC_BUTTON_ModGroup,44,227,20,14,NOT WS_VISIBLE
+    PUSHBUTTON      "-",IDC_BUTTON_DelFiles,132,227,14,14,NOT WS_VISIBLE
+    PUSHBUTTON      "修改",IDC_BUTTON_ModFile,150,227,20,14,NOT WS_VISIBLE
+    PUSHBUTTON      "上一步",IDC_BUTTON_Previous,156,399,50,14,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "目录",IDC_BUTTON_AddDir,108,227,20,14,NOT WS_VISIBLE
+    PUSHBUTTON      "导入文件",IDC_BUTTON_Load,263,75,50,14
+    CONTROL         "是否显示安装界面",IDC_CHECK_BWizard,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,157,27,80,10
+    CONTROL         "是否升级程序更新",IDC_CHECK_UpdataSelf,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,157,45,80,10
+    CONTROL         "CEC锁",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,6,62,36,10
+    CONTROL         "PBECA2008锁",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,43,
+                    62,60,10
+END
+
+IDD_DIALOG_AddFile DIALOG DISCARDABLE  0, 0, 250, 88
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加文件"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,141,69,50,14
+    PUSHBUTTON      "取消",IDCANCEL,196,69,50,14
+    LTEXT           "源文件:",IDC_STATIC,5,5,29,8
+    EDITTEXT        IDC_EDIT_File,5,18,219,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_Browse,229,17,17,14
+    LTEXT           "目的目录:",IDC_STATIC,6,38,37,8
+    COMBOBOX        IDC_COMBO_Dir,6,50,74,83,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "子目录:",IDC_STATIC,97,38,29,8
+    EDITTEXT        IDC_EDIT_SubDir,101,50,124,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_AddDir DIALOG DISCARDABLE  0, 0, 250, 88
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加目录"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,141,69,50,14
+    PUSHBUTTON      "取消",IDCANCEL,196,69,50,14
+    LTEXT           "源目录:",IDC_STATIC,5,5,29,8
+    EDITTEXT        IDC_EDIT_File,5,18,219,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_Browse,229,17,17,14
+    LTEXT           "目的目录:",IDC_STATIC,6,38,37,8
+    COMBOBOX        IDC_COMBO_Dir,6,50,74,83,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "子目录:",IDC_STATIC,97,38,29,8
+    EDITTEXT        IDC_EDIT_SubDir,101,50,124,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_AddGroup DIALOG DISCARDABLE  0, 0, 134, 58
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新建组"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,6,39,50,14
+    PUSHBUTTON      "取消",IDCANCEL,61,39,50,14
+    LTEXT           "组名:",IDC_STATIC,6,7,21,8
+    EDITTEXT        IDC_EDIT_Name,6,20,124,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "UpdaterMaker Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "UpdaterMaker\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "UpdaterMaker.EXE\0"
+            VALUE "ProductName", "UpdaterMaker 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_UPDATERMAKER_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_SoftName, 0x403, 10, 0
+0x4250, 0x4345, 0x3241, 0x3030, 0x0038, 
+    IDC_COMBO_SoftName, 0x403, 5, 0
+0x5342, 0x4144, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 UpdaterMaker(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\UpdaterMaker.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

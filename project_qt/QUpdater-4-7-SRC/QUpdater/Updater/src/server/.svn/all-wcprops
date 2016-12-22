@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/qupdater/!svn/ver/100/Updater/src/server
+END
+downloadprogress.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/qupdater/!svn/ver/57/Updater/src/server/downloadprogress.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/qupdater/!svn/ver/57/Updater/src/server/main.cpp
+END
+updaterservermanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/qupdater/!svn/ver/100/Updater/src/server/updaterservermanager.cpp
+END
+updaterservermanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/qupdater/!svn/ver/96/Updater/src/server/updaterservermanager.h
+END
+downloadprogress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/qupdater/!svn/ver/62/Updater/src/server/downloadprogress.cpp
+END

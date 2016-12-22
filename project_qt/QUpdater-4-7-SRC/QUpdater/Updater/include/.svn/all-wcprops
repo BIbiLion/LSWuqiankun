@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/qupdater/!svn/ver/99/Updater/include
+END
+ApplicationSington.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/qupdater/!svn/ver/88/Updater/include/ApplicationSington.h
+END
+IClientCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/qupdater/!svn/ver/96/Updater/include/IClientCenter.h
+END
+IUpdateXmlPlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/qupdater/!svn/ver/99/Updater/include/IUpdateXmlPlist.h
+END

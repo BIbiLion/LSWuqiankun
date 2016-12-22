@@ -1,0 +1,62 @@
+## Design of Internet Service Develop Environment
+
+## IDE的选择
+标准：
+	1，C++
+	2，不使用托管语言
+	3，可以支持网络编程
+	4，较快速的开发速度
+	5，自带支持ANSIC99标准编译器
+	6，技术积累
+结果：
+	采用 MS VC2005 sp1
+
+## 基础类库的选择
+可供选择的类库：
+	1，MFC
+	2，Qt for windows
+	3，wxWidget for windows
+标准：
+	1，易用的界面设计
+	2，灵活的控制
+	3，较好的设计
+	4，表现力
+	5，teamwork
+	6，文档支持
+	7，strong code
+	9，易用的网络支持
+结果：
+	Qt for windows
+
+## 网络基础库
+可供使用的类库：
+	1，MFC + win32
+	2，ACE
+标准：
+	1，稳定性
+	2，灵活易用
+	3，自适应网络环境
+	4，服务器端跨平台
+	5，文档
+	6，远期目标 + 技术积累
+结果：
+	ACE+TAO+CIAO
+	
+## STL库
+可供选择：
+	1，MSSTL of vc2005
+	2，STLPort5
+目标：
+	1，合乎标准
+	2，编译器支持
+结果：
+	1，MSSTL of vc2005
+	
+## 服务器端
+必备特性：
+	1，不需要独立运行程序
+	2，跨平台
+使用技术：
+	1，FTP
+	2，HTTP
+	3，WEB

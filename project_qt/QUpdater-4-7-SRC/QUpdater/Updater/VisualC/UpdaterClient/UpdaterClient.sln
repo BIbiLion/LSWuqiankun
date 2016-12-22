@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UpdaterClient", "UpdaterClient\UpdaterClient.vcproj", "{9930F386-7826-4FF7-896D-4BC5BAD680E2}"
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UpdaterServerManager", "..\UpdaterServerManager\UpdaterServerManager\UpdaterServerManager.vcproj", "{8661A067-9373-4FB3-A5AE-E7BCC9FF2DEA}"
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UpdaterClientXmlGen", "..\UpdaterClientXmlGen\UpdaterClientXmlGen\UpdaterClientXmlGen.vcproj", "{47D68ACE-2168-4242-8359-E54666796118}"
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndProject
+Global
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9930F386-7826-4FF7-896D-4BC5BAD680E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9930F386-7826-4FF7-896D-4BC5BAD680E2}.Debug|Win32.Build.0 = Debug|Win32
+		{9930F386-7826-4FF7-896D-4BC5BAD680E2}.Release|Win32.ActiveCfg = Release|Win32
+		{9930F386-7826-4FF7-896D-4BC5BAD680E2}.Release|Win32.Build.0 = Release|Win32
+		{8661A067-9373-4FB3-A5AE-E7BCC9FF2DEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8661A067-9373-4FB3-A5AE-E7BCC9FF2DEA}.Debug|Win32.Build.0 = Debug|Win32
+		{8661A067-9373-4FB3-A5AE-E7BCC9FF2DEA}.Release|Win32.ActiveCfg = Release|Win32
+		{8661A067-9373-4FB3-A5AE-E7BCC9FF2DEA}.Release|Win32.Build.0 = Release|Win32
+		{47D68ACE-2168-4242-8359-E54666796118}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47D68ACE-2168-4242-8359-E54666796118}.Debug|Win32.Build.0 = Debug|Win32
+		{47D68ACE-2168-4242-8359-E54666796118}.Release|Win32.ActiveCfg = Release|Win32
+		{47D68ACE-2168-4242-8359-E54666796118}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
