@@ -7,3 +7,4 @@ Makefile*
 moc_*
 */build*Debug
 ./build*
+ui_*.h
