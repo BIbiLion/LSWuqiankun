@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\form.o
+./release\toolbutton.o
+./release\testwidget.o
+./release\simpleitem.o
+./release\mygraphicsview.o
+./release\myscene.o
+./release\qrc_rc.o
+./release\moc_mainwindow.o
+./release\moc_form.o
+./release\moc_toolbutton.o
+./release\moc_testwidget.o
+);

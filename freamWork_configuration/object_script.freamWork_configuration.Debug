@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\form.o
+./debug\toolbutton.o
+./debug\testwidget.o
+./debug\simpleitem.o
+./debug\mygraphicsview.o
+./debug\myscene.o
+./debug\qrc_rc.o
+./debug\moc_mainwindow.o
+./debug\moc_form.o
+./debug\moc_toolbutton.o
+./debug\moc_testwidget.o
+);
