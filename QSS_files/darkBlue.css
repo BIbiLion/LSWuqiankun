@@ -1,0 +1,251 @@
+* {color: #eeeeee; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; }
+
+QAbstractItemView { background: transparent; }
+
+QCheckBox:disabled { color: #a0b3bb;  background: transparent; }
+QCheckBox:indicator, QHeaderView:indicator, QGroupBox:indicator, QListView:indicator, QTableView:indicator, QTreeView:indicator { width: 13; height: 13; }
+QCheckBox:indicator:unchecked, QHeaderView:indicator:unchecked, QGroupBox:indicator:unchecked, QListView:indicator:unchecked, QTableView:indicator:unchecked, QTreeView:indicator:unchecked  { image: url("../data/RadarInfoAnalysis/img/darkBlue/QCheckBox/typeOne/unchecked_normal.png"); }
+QCheckBox:indicator:unchecked:hover, QHeaderView:indicator:unchecked:hover, QGroupBox:indicator:unchecked:hover, QListView:indicator:unchecked:hover, QTableView:indicator:unchecked:hover, QTreeView:indicator:unchecked:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QCheckBox/typeOne/unchecked_hover.png"); }
+QCheckBox:indicator:unchecked:pressed, QHeaderView:indicator:unchecked:pressed, QGroupBox:indicator:unchecked:pressed, QListView:indicator:unchecked:pressed, QTableView:indicator:unchecked:pressed, QTreeView:indicator:unchecked:pressed { image: url("../data/RadarInfoAnalysis/img/darkBlue/QCheckBox/typeOne/unchecked_pressed.png"); }
+QCheckBox:indicator:unchecked:disabled, QHeaderView:indicator:unchecked:disabled, QGroupBox:indicator:unchecked:disabled, QListView:indicator:unchecked:disabled, QTableView:indicator:unchecked:disabled, QTreeView:indicator:unchecked:disabled { image: url("../data/RadarInfoAnalysis/img/darkBlue/QCheckBox/typeOne/unchecked_disabled.png"); }
+QCheckBox:indicator:checked, QHeaderView:indicator:checked, QGroupBox:indicator:checked, QListView:indicator:checked, QTableView:indicator:checked, QTreeView:indicator:checked { image: url("../data/RadarInfoAnalysis/img/darkBlue/QCheckBox/typeOne/checked_normal.png"); }
+QCheckBox:indicator:checked:hover, QHeaderView:indicator:checked:hover, QGroupBox:indicator:checked:hover, QListView:indicator:checked:hover, QTableView:indicator:checked:hover, QTreeView:indicator:checked:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QCheckBox/typeOne/checked_hover.png"); }
+QCheckBox:indicator:checked:pressed, QHeaderView:indicator:checked:pressed, QGroupBox:indicator:checked:pressed, QListView:indicator:checked:pressed, QTableView:indicator:checked:pressed, QTreeView:indicator:checked:pressed { image: url("../data/RadarInfoAnalysis/img/darkBlue/QCheckBox/typeOne/checked_pressed.png"); }
+QCheckBox:indicator:checked:disabled, QHeaderView:indicator:checked:disabled, QGroupBox:indicator:checked:disabled, QListView:indicator:checked:disabled, QTableView:indicator:checked:disabled, QTreeView:indicator:checked:disabled { image: url("../data/RadarInfoAnalysis/img/darkBlue/QCheckBox/typeOne/checked_disabled.png"); }
+
+QPlainTextEdit, QTextEdit { padding: 0 5; }
+QComboBox, QDateEdit, QDateTimeEdit, QDoubleSpinBox, QLineEdit, QSpinBox, QTimeEdit { min-height: 24; max-height: 24; padding: 0 5; }
+QComboBox:editable, QDateEdit, QDateTimeEdit, QDoubleSpinBox, QLineEdit, QPlainTextEdit, QSpinBox, QTextEdit, QTimeEdit { border: 1 solid #3e769c; background-color: rgba(10, 30, 52, 80%); }
+QComboBox:editable:focus, QDateEdit:focus, QDateTimeEdit:focus, QDoubleSpinBox:focus, QLineEdit:focus, QPlainTextEdit:focus, QSpinBox:focus, QTextEdit:focus, QTimeEdit:focus { border: 1 solid #5ec5df; background-color: rgba(10, 30, 52, 80%); }
+QComboBox, QDateEdit:read-only, QDateTimeEdit:read-only, QDoubleSpinBox:read-only, QLineEdit:read-only, QPlainTextEdit:read-only, QSpinBox:read-only, QTextEdit:read-only, QTimeEdit:read-only { border: 1 solid #3e769c ; background-color: rgba(32, 54, 78, 60%); }
+QComboBox:disabled, QDateEdit:disabled, QDateTimeEdit:disabled, QDoubleSpinBox:disabled, QLineEdit:disabled, QPlainTextEdit:disabled, QSpinBox:disabled, QTextEdit:disabled, QTimeEdit:disabled { border: 1 solid #646464; background-color: rgba(113, 113, 113, 60%);  color: #a0b3bb; }
+
+QComboBox:!editable:!disabled { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QComboBox/typeOne/light_normal.png"); }
+QComboBox:!editable:!disabled:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QComboBox/typeOne/light_hover.png"); }
+QComboBox::drop-down { min-width: 22; max-width: 22; min-height: 22; max-height: 22; padding-top: 1; }
+QComboBox::drop-down { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QComboBox/typeOne/normal.png"); }
+QComboBox::drop-down:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QComboBox/typeOne/hover.png"); }
+QComboBox::drop-down:on { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QComboBox/typeOne/on.png"); }
+QComboBox QAbstractItemView { color: #eeeeee; border: 1 solid #3e769c; background-color: rgba(10, 30, 52, 80%); selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 rgba(44, 69, 99, 200), stop: 1 rgba(73, 110, 146, 200)); }
+
+QDateEdit::up-button, QDateEdit::down-button, QDateTimeEdit::up-button, QDateTimeEdit::down-button, QDoubleSpinBox::up-button, QDoubleSpinBox::down-button, QSpinBox::up-button, QSpinBox::down-button, QTimeEdit::up-button, QTimeEdit::down-button { min-width: 22; max-width: 22; }
+QDateEdit::up-button, QDateTimeEdit::up-button, QDoubleSpinBox::up-button, QSpinBox::up-button, QTimeEdit::up-button { min-height: 12; max-height: 12; }
+QDateEdit::down-button, QDateTimeEdit::down-button, QDoubleSpinBox::down-button, QSpinBox::down-button, QTimeEdit::down-button { min-height: 10; max-height: 10; }
+QDateEdit::up-button, QDateTimeEdit::up-button, QDoubleSpinBox::up-button, QSpinBox::up-button, QTimeEdit::up-button { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QSpinBox/typeOne/up_normal.png"); }
+QDateEdit::down-button, QDateTimeEdit::down-button, QDoubleSpinBox::down-button, QSpinBox::down-button, QTimeEdit::down-button { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QSpinBox/typeOne/down_normal.png"); }
+QDateEdit::up-button:hover, QDateTimeEdit::up-button:hover, QDoubleSpinBox::up-button:hover, QSpinBox::up-button:hover, QTimeEdit::up-button:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QSpinBox/typeOne/up_hover.png"); }
+QDateEdit::down-button:hover, QDateTimeEdit::down-button:hover, QDoubleSpinBox::down-button:hover, QSpinBox::down-button:hover, QTimeEdit::down-button:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QSpinBox/typeOne/down_hover.png"); }
+QDateEdit::up-button:pressed, QDateTimeEdit::up-button:pressed, QDoubleSpinBox::up-button:pressed, QSpinBox::up-button:pressed, QTimeEdit::up-button:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QSpinBox/typeOne/up_pressed.png"); }
+QDateEdit::down-button:pressed, QDateTimeEdit::down-button:pressed, QDoubleSpinBox::down-button:pressed, QSpinBox::down-button:pressed, QTimeEdit::down-button:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QSpinBox/typeOne/down_pressed.png"); }
+QDateEdit::up-button:disabled, QDateTimeEdit::up-button:disabled, QDoubleSpinBox::up-button:disabled, QSpinBox::up-button:disabled, QTimeEdit::up-button:disabled { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QSpinBox/typeOne/up_disabled.png"); }
+QDateEdit::down-button:disabled, QDateTimeEdit::down-button:disabled, QDoubleSpinBox::down-button:disabled, QSpinBox::down-button:disabled, QTimeEdit::down-button:disabled { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QSpinBox/typeOne/down_disabled.png"); }
+
+QFileDialog QSplitter::handle { background: transparent; }
+
+QFrame[frameShape="5"] { width: 2; border: none; border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QFrame/typeOne/VLine.png"); }
+QFrame[frameShape="5"] { width: 2; border: none; border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QFrame/typeTwo/VLine.png"); }
+QFrame[frameShape="4"] { height: 2; border: none; border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QFrame/typeOne/HLine.png"); }
+QFrame[frameShape="4"] { height: 2; border: none; border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QFrame/typeTwo/HLine.png"); }
+
+
+
+QGraphicsView, QGraphicsScene { background: transparent; }
+
+QGroupBox { background-color: rgba(16, 84, 120, 40%); border: 1 solid #32b16c; margin-top: 8; padding: 0; }
+QGroupBox::title { subcontrol-origin: margin; margin-left: 5; margin-right: 5; left: 15; top: -3; }
+QGroupBox[checkable="true"]::title { top: -2; }
+
+QGroupBox[type="typeOne"] { margin: 0; border-top-width: 42; border-right-width: 4; border-left-width: 120; border-bottom-width: 4; padding: 0 2 2 -114; }
+QGroupBox[type="typeOne"] { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QGroupBox/typeOne/bg.png") 42 4 4 120; }
+QGroupBox[type="typeOne"]::title { subcontrol-origin: margin; subcontrol-position: top left; background: transparent; border: none; min-height: 36; max-height: 36; left: 20; top: 0;}
+QGroupBox[type="typeOne"]::title { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QGroupBox/typeOne/title_text_bg.png"); }
+
+QGroupBox[type="typeTwo"] { background-color: rgba(16, 84, 120, 40%); border: 1 solid #32b16c; margin-top: 8; padding: 0; }
+QGroupBox[type="typeTwo"]::title { subcontrol-origin: margin; margin-left: 5; margin-right: 5; left: 15; top: -3; }
+QGroupBox[type="typeTwo"][checkable="true"]::title { top: -2; }
+
+QHeaderView { background-image: url("../data/RadarInfoAnalysis/img/darkBlue/QHeaderView/typeOne/header.png"); }
+QHeaderView::section { border-style: solid; border-width: 0 1;  border-right-color: rgba(14, 66, 122, 40%);  border-left-color: rgba(108, 189, 226, 40%); background: transparent;  min-height: 24; }
+QHeaderView::section:hover { background-image: url("../data/RadarInfoAnalysis/img/darkBlue/QHeaderView/typeOne/section_hover.png") 2; }
+QHeaderView::section:checked { background-image:url("../data/RadarInfoAnalysis/img/darkBlue/QHeaderView/typeOne/section_selected.png") 2;}
+
+QHeaderView::up-arrow { width: 13; height: 13; image: url("../data/RadarInfoAnalysis/img/darkBlue/QHeaderView/typeOne/up_normal.png"); image-position: right; }
+QHeaderView::up-arrow:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QHeaderView/typeOne/up_hover.png"); }
+QHeaderView::down-arrow { width: 13; height: 13; image: url("../data/RadarInfoAnalysis/img/darkBlue/QHeaderView/typeOne/down_normal.png");  image-position: right; }
+QHeaderView::down-arrow:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QHeaderView/typeOne/down_hover.png"); }
+
+QListView, QTableView, QTreeView { background-color: rgba(23, 49, 74, 60%); alternate-background-color: rgba(34, 60, 87, 60%); border: 1 solid #4c84af; show-decoration-selected: 1; outline: none; }
+QListView::item, QTableView::item, QTreeView::item { height: 25; padding: 0 7; }
+QListView::item:hover, QTableView::item:hover, QTreeView::item:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QTableView/typeOne/hover.png"); }
+QListView::item:selected, QTableView::item:selected, QTreeView::item:selected { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QTableView/typeOne/selected.png"); }
+QListView::item:selected:!focus, QTableView::item:selected:!focus, QTreeView::item:selected:!focus { color: #eeeeee; }
+
+QMenu { border: 1 solid #4c84af; background-color: #11273f; }
+QMenu::item { padding:2 25 2 20; height: 25; }
+QMenu::item:selected { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QMenu/typeOne/selected.png") 2; border: 2; }
+QMenu::separator { height: 2; border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QFrame/typeOne/HLine.png"); }
+
+QMenuBar { border: none; min-height: 32; border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QMenuBar/typeOne/bg.png") 2; border-width: 2; font-size: 18px; padding-left: 40; }
+QMenuBar::item:disabled { color: #a0b3bb; }
+QMenuBar::item { background: transparent; padding: 0 25; }
+QMenuBar::item:selected { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QMenuBar/typeOne/selected.png"); }
+QMenuBar::item:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QMenuBar/typeOne/pressed.png"); }
+
+QMessageBox { background: transparent; }
+
+QPushButton::checked { color: #ffaa00; }
+QPushButton, QPushButton[type="typeOne"], QPushButton[type="typeTwo"], #ImageNavBtn { height: 24; min-width: 56; border-width: 3; padding: -3 2; }
+QPushButton, QPushButton[type="typeOne"]{ border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeOne/normal.png") 3; }
+QPushButton:hover, QPushButton[type="typeOne"]:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeOne/hover.png") 3; }
+QPushButton:pressed, QPushButton[type="typeOne"]:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeOne/pressed.png") 3; }
+QPushButton::checked , QPushButton[type="typeOne"]::checked { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeOne/checked.png") 3; }
+QPushButton:disabled { color: #a0b3bb; background: transparent; }
+QPushButton:disabled, QPushButton[type="typeOne"]:disabled { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeOne/disabled.png") 3; }
+
+QPushButton[type="typeTwo"] { border-width: 5 6 5 6; }
+QPushButton[type="typeTwo"] { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeTwo/normal.png") 5 6 5 6; }
+QPushButton[type="typeTwo"]:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeTwo/hover.png") 5 6 5 6; }
+QPushButton[type="typeTwo"]:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeTwo/pressed.png") 5 6 5 6; }
+QPushButton[type="typeTwo"]:disabled { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QPushButton/typeTwo/disabled.png") 5 6 5 6; }
+
+QProgressBar { border-width: 3; min-height: 20; max-height: 20; min-width: 20; text-align: center; }
+QProgressBar { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QProgressBar/typeOne/bar.png") 3;}
+QProgressBar::chunk { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QProgressBar/typeOne/chunk.png") 2; border-width: 2; spacing: 2;}
+
+QRadioButton:disabled { color: #a0b3bb;  background: transparent; }
+QRadioButton:indicator { width: 14; height: 13; }
+QRadioButton:indicator:unchecked { image: url("../data/RadarInfoAnalysis/img/darkBlue/QRadioButton/typeOne/unchecked_normal.png"); }
+
+QRadioButton:indicator:unchecked:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QRadioButton/typeOne/unchecked_hover.png"); }
+QRadioButton:indicator:unchecked:pressed { image: url("../data/RadarInfoAnalysis/img/darkBlue/QRadioButton/typeOne/unchecked_pressed.png"); }
+QRadioButton:indicator:unchecked:disabled { image: url("../data/RadarInfoAnalysis/img/darkBlue/QRadioButton/typeOne/unchecked_disabled.png"); }
+QRadioButton:indicator:checked { image: url("../data/RadarInfoAnalysis/img/darkBlue/QRadioButton/typeOne/checked_normal.png"); }
+QRadioButton:indicator:checked:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QRadioButton/typeOne/checked_hover.png"); }
+QRadioButton:indicator:checked:pressed { image: url("../data/RadarInfoAnalysis/img/darkBlue/QRadioButton/typeOne/checked_pressed.png"); }
+QRadioButton:indicator:checked:disabled { image: url("../data/RadarInfoAnalysis/img/darkBlue/QRadioButton/typeOne/checked_disabled.png"); }
+
+QScrollArea { border: 1 solid #496c85; background: transparent; }
+QScrollArea  QWidget { background: transparent; border: none; }
+
+QScrollBar::handle {background: rgba(23, 119, 141, 50%); margin: 1;}
+QScrollBar::handle:hover { background: rgba(27, 205, 226, 50%); }
+QScrollBar:horizontal {height:13; border: 1 solid #496c85; background: transparent; padding: 0 11;}
+QScrollBar::vertical {width:13; border: 1 solid #496c85; background: transparent; padding: 11 0;}
+ 
+QScrollBar::add-line:horizontal {subcontrol-position: right; subcontrol-origin: margin; width: 12; border:none;}
+QScrollBar::sub-line:horizontal {subcontrol-position: left; subcontrol-origin: margin; width: 12; border:none;}
+QScrollBar::add-line:vertical {subcontrol-position: bottom; subcontrol-origin: margin; height: 12; border:none;}
+QScrollBar::sub-line:vertical {subcontrol-position: top; subcontrol-origin: margin; height: 12; border:none;}
+QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {width 10; height: 9; border:none;}
+QScrollBar:up-arrow:vertical, QScrollBar::down-arrow:vertical {width 9; height: 10; border:none;}
+
+QScrollBar::left-arrow {image: url("../data/RadarInfoAnalysis/img/darkBlue/QScrollBar/typeOne/left.png"); margin-left: 1;}
+QScrollBar::right-arrow {image: url("../data/RadarInfoAnalysis/img/darkBlue/QScrollBar/typeOne/right.png"); margin-right: 2;}
+QScrollBar::up-arrow {image: url("../data/RadarInfoAnalysis/img/darkBlue/QScrollBar/typeOne/up.png"); margin-top: 1;}
+QScrollBar::down-arrow {image: url("../data/RadarInfoAnalysis/img/darkBlue/QScrollBar/typeOne/down.png"); margin-bottom: 2;}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal, QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { background: none;}
+
+QSlider { height: 25; }
+QSlider:sub-page { background-color: #4494df; }
+QSlider:groove { background-color: #375176; }
+QSlider:sub-page:horizontal { height: 8;  margin: -7 0 0 8; }
+QSlider:groove:horizontal { height: 8; border: none;  margin: -7 8 0 8; }
+QSlider:handle:horizontal { width: 16; height: 21; margin: -4 -8 -17 -8; }
+QSlider:handle:horizontal { image: url("../data/RadarInfoAnalysis/img/darkBlue/QSlider/typeOne/h_normal.png"); }
+QSlider:handle:horizontal:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QSlider/typeOne/h_hover.png"); }
+QSlider:handle:horizontal:pressed { image: url("../data/RadarInfoAnalysis/img/darkBlue/QSlider/typeOne/h_pressed.png"); }
+QSlider:handle:horizontal:disabled { image: url("../data/RadarInfoAnalysis/img/darkBlue/QSlider/typeOne/h_disabled.png"); }
+
+QSlider:sub-page:vertical { width: 8;  margin: 0 0 8 -7; }
+QSlider:groove:vertical { width: 8; border: none;  margin: 8 0 8 -7; }
+QSlider:handle:vertical { width: 21; height: 16; margin: -8 -17 -8 -4; }
+QSlider:handle:vertical { image: url("../data/RadarInfoAnalysis/img/darkBlue/QSlider/typeOne/v_normal.png"); }
+QSlider:handle:vertical:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QSlider/typeOne/v_hover.png"); }
+QSlider:handle:vertical:pressed { image: url("../data/RadarInfoAnalysis/img/darkBlue/QSlider/typeOne/v_pressed.png"); }
+QSlider:handle:vertical:disabled { image: url("../data/RadarInfoAnalysis/img/darkBlue/QSlider/typeOne/v_disabled.png"); }
+
+QStatusBar { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QStatusBar/typeOne/bg.png") 5; border: 5; min-height: 30; }
+QStatusBar QLabel { border: none; }
+QStatusBar::item { border: none; }
+
+QTableView { gridline-color:rgba(57, 84, 111, 150);  }
+
+QTabWidget > QWidget { border: none; background: transparent; }
+QTabWidget::pane, QTabWidget[type="typeOne"]::pane { margin-top: -1; border: none; border-top-width: 56; border-right-width: 108; border-bottom-width: 25; border-left-width: 17; padding: -49 -103 -7 -7; }
+QTabWidget::pane, QTabWidget[type="typeOne"]::pane { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/typeOne/bg.png") 56 108 25 17; }
+
+QTabWidget QTabBar::tab:top:selected {  margin-bottom: -2; color: #ffaa00;  }
+QTabWidget QTabBar::tab:top, QTabWidget[type="typeOne"] QTabBar::tab:top { background:transparent; min-height: 28; min-width: 80; margin: 0 -5; border-left-width: 16;  border-right-width: 16; padding: 0; }
+QTabWidget QTabBar::tab:top, QTabWidget[type="typeOne"] QTabBar::tab:top { border-image:url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/typeOne/tab/normal.png") 0 16; }
+QTabWidget QTabBar::tab:top:hover, QTabWidget[type="typeOne"] QTabBar::tab:top:hover { border-image:url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/typeOne/tab/hover.png") 0 16; }
+QTabWidget QTabBar::tab:top:pressed, QTabWidget QTabBar::tab:top:selected, QTabWidget[type="typeOne"] QTabBar::tab:top:pressed, QTabWidget[type="typeOne"] QTabBar::tab:top:selected { border-image:url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/typeOne/tab/pressed.png") 0 16;}
+QTabWidget QTabBar::tab:top:!selected, QTabWidget[type="typeOne"] QTabBar::tab:top:!selected { margin-top: 2; }
+QTabWidget QTabBar::tab:top:first, QTabWidget[type="typeOne"] QTabBar::tab:top:first { margin-left: 0; }
+QTabWidget QTabBar::tab:top:last, QTabWidget[type="typeOne"] QTabBar::tab:top:last { margin-right: 0; }
+QTabWidget QTabBar::tab:top:only-one, QTabWidget[type="typeOne"] QTabBar::tab:top:only-one {margin-right: 0; margin-left: 0; }
+
+QTabBar QToolButton { min-width: 17; max-width: 17; min-height: 21; max-height: 21; border: none; padding: 0; margin: 0; }
+QTabBar QToolButton { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/toolBtn_normal.png"); }
+QTabBar QToolButton:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/toolBtn_hover.png"); }
+QTabBar QToolButton:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/toolBtn_pressed.png"); }
+QTabBar QToolButton:disabled { border-image: none; }
+QTabBar QToolButton::right-arrow { image: url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/rightArrow_normal.png"); }
+QTabBar QToolButton::right-arrow:disabled { image: url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/rightArrow_disabled.png"); }
+QTabBar QToolButton::left-arrow { image: url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/leftArrow_normal.png"); }
+QTabBar QToolButton::left-arrow:disabled { image: url("../data/RadarInfoAnalysis/img/darkBlue/QTabWidget/leftArrow_disabled.png"); }
+
+QToolTip { border: 1 solid #1585c7; background-color: rgba( 17, 27, 34, 60%); }
+
+QTreeView::branch:has-children:!has-siblings:closed, QTreeView::branch:closed:has-children:has-siblings { image: url("../data/RadarInfoAnalysis/img/darkBlue/QTreeView/typeOne/close_normal.png"); }
+QTreeView::branch:open:has-children:!has-siblings, QTreeView::branch:open:has-children:has-siblings { image: url("../data/RadarInfoAnalysis/img/darkBlue/QTreeView/typeOne/open_normal.png"); }
+QTreeView::branch:has-children:!has-siblings:closed:hover, QTreeView::branch:closed:has-children:has-siblings:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QTreeView/typeOne/close_hover.png"); }
+QTreeView::branch:open:has-children:!has-siblings:hover, QTreeView::branch:open:has-children:has-siblings:hover { image: url("../data/RadarInfoAnalysis/img/darkBlue/QTreeView/typeOne/open_hover.png"); }
+
+QCustomPlot { background: transparent; }
+
+MainFrame { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/bg.png"); }
+
+#PageGroupBox { font-size: 24px; border-width: 400 250 280 510; padding: -360 -240 -270 -492; }
+#PageGroupBox { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QGroupBox/typeThree/bg.png") 400 250 280 510; }
+#PageGroupBox::title { top: 12; left: 50; background: transparent; }
+
+#StatusWidget { border: 1 solid #39749a; background-color: rgba(34, 62, 104, 60%); }
+#StatusWidget #ItemNameLabel { font-size: 16; color: darkGray; }
+#StatusWidget #ItemStatusLabel {color: #eeeeee; font-size: 20px;}
+
+#NavTitleBar #TitleLabel { font-size: 28px; padding: 0 10; }
+
+#NavTitleBar { min-height: 60px; spacing: 20; border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QMenuBar/typeOne/bg.png") 2px; border-width: 2px;}
+#NavTitleBar { image: url("../data/RadarInfoAnalysis/img/darkBlue/logo/38logo_middle.png"); }
+#NavTitleBar QToolButton { min-width: 80px; min-height: 60px; border: none; border-image: none; padding: 0; background: transparent; font-size: 18px;}
+#NavTitleBar QToolButton:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QMenuBar/typeOne/selected.png"); }
+#NavTitleBar QToolButton:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QMenuBar/typeOne/pressed.png"); }
+#NavTitleBar QToolButton:checked { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QMenuBar/typeOne/selected.png"); }
+#NavTitleBar QToolButton:menu-indicator { image: None; }
+
+CustomDialog #BackgroundWidget { border-width: 50 5 5 5; }
+CustomDialog #BackgroundWidget { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/bg.png") 50 5 5 5; }
+CustomDialog #TitleWidget { min-height: 36; max-height: 36; border-width: 5; padding: -5; }
+CustomDialog #TitleWidget { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/title_bg.png") 5; }
+CustomDialog #TitleLabel { min-height: 36; padding-left: 6; }
+CustomDialog #MaximizedBtn { min-width: 25; max-width: 25; min-height: 22; max-height: 22; margin-top: 1; padding: 0; border: none; }
+CustomDialog #MaximizedBtn { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/maximize_normal.png"); }
+CustomDialog #MaximizedBtn:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/maximize_hover.png"); }
+CustomDialog #MaximizedBtn:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/maximize_pressed.png"); }
+CustomDialog #MaximizedBtn:checked { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/restore_normal.png"); }
+CustomDialog #MaximizedBtn:checked:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/restore_hover.png"); }
+CustomDialog #MaximizedBtn:checked:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/restore_pressed.png"); }
+CustomDialog #CloseBtn { min-width: 42; max-width: 42; min-height: 22; max-height: 22; margin-top: 1; margin-right: 1; padding: 0; border: none; }
+CustomDialog #CloseBtn { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/close_normal.png"); }
+CustomDialog #CloseBtn:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/close_hover.png"); }
+CustomDialog #CloseBtn:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeTwo/close_pressed.png"); }
+
+CustomSystemDialog #BackgroundWidget { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeThree/QDialog/bg.png") 32 2 2 2; border-width: 32 2 2 2; padding: -2;}
+CustomSystemDialog #TitleWidget { min-height: 30; max-height: 30; border-width: 2; padding: -2; }
+CustomSystemDialog #TitleWidget { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeThree/title_bg.png") 2;}
+CustomSystemDialog #TitleLabel { min-height: 30; max-height: 30px; padding-left: 6; }
+CustomSystemDialog #CloseBtn { min-width: 30; max-width: 30; min-height: 20; max-height: 20; margin-top: 1; margin-right: 1; padding: 0; border: none; }
+CustomSystemDialog #CloseBtn { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeThree/close_normal.png"); }
+CustomSystemDialog #CloseBtn:hover { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeThree/close_hover.png"); }
+CustomSystemDialog #CloseBtn:pressed { border-image: url("../data/RadarInfoAnalysis/img/darkBlue/QDialog/typeThree/close_pressed.png"); }

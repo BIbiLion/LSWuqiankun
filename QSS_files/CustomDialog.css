@@ -1,0 +1,316 @@
+* { color: #ffffff; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; }
+
+QCheckBox:disabled { color: #8d8d8d; }
+QCheckBox::indicator, QGroupBox::indicator, QHeaderView:indicator, QListView::indicator, QTableView::indicator, QTreeView::indicator { width: 16px; height: 16px; }
+QCheckBox::indicator:unchecked, QGroupBox::indicator:unchecked, QHeaderView:indicator:unchecked, QListView::indicator:unchecked, QTableView::indicator:unchecked, QTreeView::indicator:unchecked { image: url("../data/VisualizationPlatform/img/QCheckBox/unchecked_normal.png"); }
+QCheckBox::indicator:unchecked:hover, QGroupBox::indicator:unchecked:hover, QHeaderView:indicator:unchecked:hover, QListView::indicator:unchecked:hover, QTableView::indicator:unchecked:hover, QTreeView::indicator:unchecked:hover { image: url("../data/VisualizationPlatform/img/QCheckBox/unchecked_hover.png"); }
+QCheckBox::indicator:unchecked:pressed, QGroupBox::indicator:unchecked:pressed, QHeaderView:indicator:unchecked:pressed, QListView::indicator:unchecked:pressed, QTableView::indicator:unchecked:pressed, QTreeView::indicator:unchecked:pressed { image: url("../data/VisualizationPlatform/img/QCheckBox/unchecked_pressed.png"); }
+QCheckBox::indicator:unchecked:disabled, QGroupBox:indicator:unchecked:disabled, QHeaderView:indicator:unchecked:disabled, QListView:indicator:unchecked:disabled, QTableView:indicator:unchecked:disabled, QTreeView:indicator:unchecked:disabled { image: url("../data/VisualizationPlatform/img/QCheckBox/unchecked_disabled.png"); }
+QCheckBox::indicator:checked, QGroupBox::indicator:checked, QHeaderView:indicator:checked, QListView::indicator:checked, QTableView::indicator:checked, QTreeView::indicator:checked { image: url("../data/VisualizationPlatform/img/QCheckBox/checked_normal.png"); }
+QCheckBox::indicator:checked:hover, QGroupBox::indicator:checked:hover, QHeaderView:indicator:hover, QListView::indicator:checked:hover, QTableView::indicator:checked:hover, QTreeView::indicator:checked:hover { image: url("../data/VisualizationPlatform/img/QCheckBox/checked_hover.png"); }
+QCheckBox::indicator:checked:pressed, QGroupBox::indicator:checked:pressed, QHeaderView:indicator:pressed, QListView::indicator:checked:pressed, QTableView::indicator:checked:pressed, QTreeView::indicator:checked:pressed { image: url("../data/VisualizationPlatform/img/QCheckBox/checked_pressed.png"); }
+QCheckBox::indicator:checked:disabled, QHeaderView::indicator:checked:disabled, QGroupBox::indicator:checked:disabled, QListView:indicator::checked:disabled, QTableView:indicator::checked:disabled, QTreeView::indicator:checked:disabled { image: url("../data/VisualizationPlatform/img/QCheckBox/checked_disabled.png"); }
+QCheckBox::indicator:indeterminate, QGroupBox::indicator:indeterminate, QHeaderView:indicator:indeterminate, QListView::indicator:indeterminate, QTableView::indicator:indeterminate, QTreeView::indicator:indeterminate { image: url("../data/VisualizationPlatform/img/QCheckBox/indeterminate_normal.png"); }
+QCheckBox::indicator:indeterminate:hover, QGroupBox::indicator:indeterminate:hover, QHeaderView:indicator:indeterminate:hover, QListView::indicator:indeterminate:hover, QTableView::indicator:indeterminate:hover, QTreeView::indicator:indeterminate:hover { image: url("../data/VisualizationPlatform/img/QCheckBox/indeterminate_hover.png"); }
+QCheckBox::indicator:indeterminate:pressed, QGroupBox::indicator:indeterminate:pressed, QHeaderView:indicator:indeterminate:pressed, QListView::indicator:indeterminate:pressed, QTableView::indicator:indeterminate:pressed, QTreeView::indicator:indeterminate:pressed { image: url("../data/VisualizationPlatform/img/QCheckBox/indeterminate_pressed.png"); }
+QCheckBox::indicator:indeterminate:disabled, QGroupBox::indicator:indeterminate:disabled, QHeaderView::indicator:indeterminate:disabled, QListView::indicator:indeterminate:disabled, QTableView::indicator:indeterminate:disabled, QTreeView::indicator:indeterminate:disabled { image: url("../data/VisualizationPlatform/img/QCheckBox/indeterminate_disabled.png"); }
+
+QColorDialog QWidget { background: transparent; }
+
+QComboBox { height: 26px; padding: 0 5px;}
+QComboBox:editable { padding-left: 3px; }
+QComboBox:editable { border: 1 solid #394756; background-color: rgba(20, 22, 25, 33%); }
+QComboBox:editable:hover { border: 1 solid #6683a1; background-color: rgba(20, 22, 25, 33%); }
+QComboBox:editable:focus { border: 1 solid #6683a1; background-color: rgba(11, 12, 14, 44%); }
+QComboBox:editable:disabled { border: 1 solid #545454; background-color: rgba(54, 54, 54, 33%); }
+QComboBox:!editable { border: 1 solid #425264; background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 rgba(216, 239, 255, 50%), stop: 0.6 rgba(20, 22, 25, 33%), stop: 1 rgba(20, 22, 25, 33%)); }
+QComboBox:!editable:hover { border: 1 solid #6683a1; background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 rgba(216, 239, 255, 60%), stop: 0.6 rgba(20, 22, 25, 33%), stop: 1 rgba(20, 22, 25, 33%)); }
+QComboBox:!editable:pressed { border: 1 solid #3e769c; background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 rgba(216, 239, 255, 20%), stop: 0.6 rgba(20, 22, 25, 33%), stop: 1 rgba(20, 22, 25, 33%)); }
+QComboBox:!editable:on { border: 1 solid #6683a1; background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 rgba(216, 239, 255, 50%), stop: 0.6 rgba(20, 22, 25, 33%), stop: 1 rgba(20, 22, 25, 33%)); }
+QComboBox:!editable:disabled { border: 1 solid #545454; background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 rgba(255, 255, 255, 40%), stop: 0.6 rgba(54, 54, 54, 33%), stop: 1 rgba(54, 54, 54, 33%)); }
+
+QComboBox::drop-down { subcontrol-origin: padding; subcontrol-position: top right; width: 23px; }
+QComboBox::drop-down { border-image: url("../data/VisualizationPlatform/img/QComboBox/dropdown_normal.png"); }
+QComboBox::drop-down:hover { border-image: url("../data/VisualizationPlatform/img/QComboBox/dropdown_hover.png"); }
+QComboBox::drop-down:pressed { border-image: url("../data/VisualizationPlatform/img/QComboBox/dropdown_pressed.png"); }
+QComboBox::drop-down:on { border-image: url("../data/VisualizationPlatform/img/QComboBox/dropdown_pressed.png"); }
+QComboBox::drop-down:disabled { border-image: url("../data/VisualizationPlatform/img/QComboBox/dropdown_disabled.png"); }
+
+QComboBox::down-arrow { width: 11px; height: 10px; image-position: center; }
+QComboBox::down-arrow { image: url("../data/VisualizationPlatform/img/QComboBox/downarrow_normal.png");  }
+QComboBox::down-arrow:hover { image: url("../data/VisualizationPlatform/img/QComboBox/downarrow_hover.png"); }
+QComboBox::down-arrow:disabled { image: url("../data/VisualizationPlatform/img/QComboBox/downarrow_disabled.png"); }
+
+QComboBox QAbstractItemView { border: 1 solid #394756; background-color: rgba(33, 39, 46, 90%); }
+QComboBox QAbstractItemView { selection-background-color: #5784b3; }
+
+QDateEdit, QDateTimeEdit, QTimeEdit, QSpinBox, QDoubleSpinBox { height: 27px; padding: 0 5px; }
+QDateEdit, QDateTimeEdit, QTimeEdit, QSpinBox, QDoubleSpinBox { border: 1 solid #394756; background-color: rgba(20, 22, 25, 33%); }
+QDateEdit:hover, QDateTimeEdit:hover, QTimeEdit:hover, QSpinBox:hover, QDoubleSpinBox:hover  { border: 1 solid #6683a1; background-color: rgba(20, 22, 25, 33%); }
+QDateEdit:focus, QDateTimeEdit:focus, QTimeEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus  { border: 1 solid #6683a1; background-color: rgba(11, 12, 14, 44%); }
+QDateEdit:disabled, QDateTimeEdit:disabled, QTimeEdit::disabled, QSpinBox:disabled, QDoubleSpinBox:disabled { border: 1 solid #545454; background-color: rgba(54, 54, 54, 33%); }
+QDateEdit:read-only, QDateTimeEdit:read-only, QTimeEdit:read-only, QSpinBox:read-only, QDoubleSpinBox:read-only { border: 1 solid #425264; background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 rgba(216, 239, 255, 50%), stop: 0.6 rgba(20, 22, 25, 33%), stop: 1 rgba(20, 22, 25, 33%)); }
+QDateEdit:read-only:disabled, QDateTimeEdit:read-only:disabled, QTimeEdit:read-only:disabled, QSpinBox:read-only:disabled, QDoubleSpinBox:read-only:disabled { border: 1 solid #425264; background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2:1, stop: 0 rgba(255, 255, 255, 40%), stop: 0.6 rgba(54, 54, 54, 33%), stop: 1 rgba(54, 54, 54, 33%)); }
+
+QDateEdit::up-button, QDateTimeEdit::up-button, QTimeEdit::up-button, QSpinBox::up-button, QDoubleSpinBox::up-button, QDateEdit::down-button, QDateTimeEdit::down-button, QTimeEdit::down-button, QSpinBox::down-button, QDoubleSpinBox::down-button { width: 24px; subcontrol-origin: padding; }
+QDateEdit::up-button, QDateTimeEdit::up-button, QTimeEdit::up-button, QSpinBox::up-button, QDoubleSpinBox::up-button { subcontrol-position: top right; border-image: url("../data/VisualizationPlatform/img/QSpinBox/upbutton_normal.png"); }
+QDateEdit::up-button:hover, QDateTimeEdit::up-button:hover, QTimeEdit::up-button:hover, QSpinBox::up-button:hover, QDoubleSpinBox::up-button:hover { border-image: url("../data/VisualizationPlatform/img/QSpinBox/upbutton_hover.png"); }
+QDateEdit::up-button:pressed, QDateTimeEdit::up-button:pressed, QTimeEdit::up-button:pressed, QSpinBox::up-button:pressed, QDoubleSpinBox::up-button:pressed { border-image: url("../data/VisualizationPlatform/img/QSpinBox/upbutton_pressed.png"); }
+QDateEdit::up-button:disabled, QDateTimeEdit::up-button:disabled, QTimeEdit::up-button:disabled, QSpinBox::up-button:disabled, QDoubleSpinBox::up-button:disabled { border-image: url("../data/VisualizationPlatform/img/QSpinBox/upbutton_disabled.png"); }
+QDateEdit::down-button, QDateTimeEdit::down-button, QTimeEdit::down-button, QSpinBox::down-button, QDoubleSpinBox::down-button { subcontrol-position: bottom right; border-image: url("../data/VisualizationPlatform/img/QSpinBox/downbutton_normal.png"); }
+QDateEdit::down-button:hover, QDateTimeEdit::down-button:hover, QTimeEdit::down-button:hover, QSpinBox::down-button:hover, QDoubleSpinBox::down-button:hover { border-image: url("../data/VisualizationPlatform/img/QSpinBox/downbutton_hover.png"); }
+QDateEdit::down-button:pressed, QDateTimeEdit::down-button:pressed, QTimeEdit::down-button:pressed, QSpinBox::down-button:pressed, QDoubleSpinBox::down-button:pressed { border-image: url("../data/VisualizationPlatform/img/QSpinBox/downbutton_pressed.png"); }
+QDateEdit::down-button:disabled, QDateTimeEdit::down-button:disabled, QTimeEdit::down-button:disabled, QSpinBox::down-button:disabled, QSpinBox::down-button:off, QDoubleSpinBox::down-button:disabled { border-image: url("../data/VisualizationPlatform/img/QSpinBox/downbutton_disabled.png"); }
+
+QDateEdit::up-arrow, QDateTimeEdit::up-arrow, QTimeEdit::up-arrow, QSpinBox::up-arrow, QDoubleSpinBox::up-arrow { image: url("../data/VisualizationPlatform/img/QSpinBox/uparrow_normal.png"); }
+QDateEdit::up-arrow:hover, QDateTimeEdit::up-arrow:hover, QTimeEdit::up-arrow:hover, QSpinBox::up-arrow:hover, QDoubleSpinBox::up-arrow:hover { image: url("../data/VisualizationPlatform/img/QSpinBox/uparrow_hover.png"); }
+QDateEdit::up-arrow:off, QDateTimeEdit::up-arrow:off, QTimeEdit::up-arrow:off, QSpinBox::up-arrow:off, QDoubleSpinBox::up-arrow:off { image: url("../data/VisualizationPlatform/img/QSpinBox/uparrow_disabled.png"); }
+QDateEdit::up-arrow:disabled, QDateTimeEdit::up-arrow:disabled, QTimeEdit::up-arrow:disabled, QSpinBox::up-arrow:disabled, QDoubleSpinBox::up-arrow:disabled { image: url("../data/VisualizationPlatform/img/QSpinBox/uparrow_disabled.png"); }
+QDateEdit::down-arrow, QDateTimeEdit::down-arrow, QTimeEdit::down-arrow, QSpinBox::down-arrow, QDoubleSpinBox::down-arrow { image: url("../data/VisualizationPlatform/img/QSpinBox/downarrow_normal.png"); }
+QDateEdit::down-arrow:hover, QDateTimeEdit::down-arrow:hover, QTimeEdit::down-arrow:hover, QSpinBox::down-arrow:hover, QDoubleSpinBox::down-arrow:hover { image: url("../data/VisualizationPlatform/img/QSpinBox/downarrow_hover.png"); }
+QDateEdit::down-arrow:off, QDateTimeEdit::down-arrow:off, QTimeEdit::down-arrow:off, QSpinBox::down-arrow:off, QDoubleSpinBox::down-arrow:off { image: url("../data/VisualizationPlatform/img/QSpinBox/downarrow_disabled.png"); }
+QDateEdit::down-arrow:disabled, QDateTimeEdit::down-arrow:disabled, QTimeEdit::down-arrow:disabled, QSpinBox::down-arrow:disabled, QDoubleSpinBox::down-arrow:disabled { image: url("../data/VisualizationPlatform/img/QSpinBox/downarrow_disabled.png"); }
+
+QFrame[frameShape="4"] { max-height: 1px; border-image: url("../data/VisualizationPlatform/img/Line/HLine.png"); }
+QFrame[frameShape="5"] { max-width: 1px; border-image: url("../data/VisualizationPlatform/img/Line/VLine.png"); }
+
+QGraphicsView, QGraphicsScene { background: transparent; }
+
+QGroupBox { border: 1px solid #394756; margin-top: 10; }
+QGroupBox::title { top: -10; left: 10; margin: 0 2; }
+
+QHeaderView { border-image: url("../data/VisualizationPlatform/img/QHeaderView/bg.png") 1px; border-width: 1px; padding: -1px; }
+QTreeView QHeaderView::section, QHeaderView::section:horizontal { background: transparent; border-width: 2px; padding: -2px; height: 30px; }
+QTreeView QHeaderView::section, QHeaderView::section:horizontal { border-image: url("../data/VisualizationPlatform/img/QHeaderView/normal.png") 2px; }
+QTreeView QHeaderView::section:hover, QHeaderView::section:horizontal:hover { border-image: url("../data/VisualizationPlatform/img/QHeaderView/hover.png") 2px; }
+QTreeView QHeaderView::section:pressed, QHeaderView::section:horizontal:pressed { border-image: url("../data/VisualizationPlatform/img/QHeaderView/selected.png") 2px; }
+QHeaderView::section:vertical { background: transparent; border-width: 2px; padding: -2px; width: 30px; }
+QHeaderView::section:vertical { border-image: url("../data/VisualizationPlatform/img/QHeaderView/normal.png") 2px; }
+QHeaderView::section:vertical:hover { border-image: url("../data/VisualizationPlatform/img/QHeaderView/hover.png") 2px; }
+QHeaderView::section:vertical:pressed { border-image: url("../data/VisualizationPlatform/img/QHeaderView/selected.png") 2px; }
+
+QHeaderView::up-arrow { width: 13; height: 13; image: url("../data/VisualizationPlatform/img/QHeaderView/up_normal.png"); image-position: right; }
+QHeaderView::up-arrow:hover { image: url("../data/VisualizationPlatform/img/QHeaderView/up_hover.png"); }
+QHeaderView::down-arrow { width: 13; height: 13; image: url("../data/VisualizationPlatform/img/QHeaderView/down_normal.png");  image-position: right; }
+QHeaderView::down-arrow:hover { image: url("../data/VisualizationPlatform/img/QHeaderView/down_hover.png"); }
+
+QLineEdit { height: 27px; border-width: 2px; padding: -2px 3; }
+QTextEdit, QPlainTextEdit { border-width: 2px; }
+QLineEdit, QTextEdit, QPlainTextEdit { border-image: url("../data/VisualizationPlatform/img/QLineEdit/normal.png") 2px; }
+QLineEdit:hover, QTextEdit:hover, QPlainTextEdit:hover { border-image: url("../data/VisualizationPlatform/img/QLineEdit/hover.png") 2px; }
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus { border-image: url("../data/VisualizationPlatform/img/QLineEdit/hover.png") 2px; }
+QLineEdit:disabled, QTextEdit:disabled, QPlainTextEdit:disabled { border-image: url("../data/VisualizationPlatform/img/QLineEdit/disabled.png") 2px; }
+QLineEdit:read-only { border-image: url("../data/VisualizationPlatform/img/QLineEdit/readonly_normal.png") 2px; }
+QLineEdit:read-only:disabled { border-image: url("../data/VisualizationPlatform/img/QLineEdit/readonly_disabled.png") 2px; }
+QTextEdit:read-only, QPlainTextEdit:read-only { border: 1 solid #425264;  background: rgba(20, 22, 25, 33%); }
+QTextEdit:read-only:disabled, QPlainTextEdit:read-only:disabled { border: 1 solid #545454; background: rgba(54, 54, 54, 33%); }
+
+QListView, QTableView, QTreeView { background: rgba(58, 66, 78, 60%); alternate-background-color: rgba(24, 30, 37, 60%); outline: none; border: 1px solid #394756; }
+QListView::item, QTableView::item, QTreeView::item { height: 30px; border-width: 2px; padding: -2px; }
+QListView::item:hover, QTableView::item:hover, QTreeView::item:hover { border-image: url("../data/VisualizationPlatform/img/item/hover.png") 2px; }
+QListView::item:selected, QTableView::item:selected, QTreeView::item:selected { border-image: url("../data/VisualizationPlatform/img/item/selected.png") 2px; color: white; }
+QListView::item:selected:!active, QTableView::item:selected:!active, QTreeView::item:selected:!active { color: #eeeeee; }
+
+QMainWindow::separator { background: transparent; }
+
+QMenu { border-image: url("../data/VisualizationPlatform/img/QMenu/bg.png"); background: transparent; }
+QMenu::item { background: transparent; padding: 2px 25px; }
+QMenu::item:selected { background-color: #5784b3; }
+QMenu::item:disabled { color: #8d8d8d; }
+QMenu::separator { height: 1px; border-image: url("../data/VisualizationPlatform/img/QMenu/separator.png"); }
+/*
+QMenu::indicator { width: 13px; height: 13px; }
+QMenu::indicator::non-exclusive:unchecked { image: url("../data/VisualizationPlatform/img/QMenu/indicator_unchecked.png"); }
+QMenu::indicator::non-exclusive:unchecked:selected { image: url("../data/VisualizationPlatform/img/QMenu/indicator_unchecked_selected.png"); }
+QMenu::indicator::non-exclusive:checked { image: url("../data/VisualizationPlatform/img/QMenu/indicator_checked.png"); }
+QMenu::indicaWQ6432tor::non-exclusive:checked:selected { image: url("../data/VisualizationPlatform/img/QMenu/indicator_checked_selected.png"); }
+QMenu::indicator::exclusive:unchecked { image: url("../data/VisualizationPlatform/img/QMenu/indicator_exclusive_unchecked.png"); }
+QMenu::indicator::exclusive:unchecked:selected { image: url("../data/VisualizationPlatform/img/QMenu/indicator_exclusive_unchecked_selected.png"); }
+QMenu::indicator::exclusive:checked { image: url("../data/VisualizationPlatform/img/QMenu/indicator_exclusive_checked.png"); }
+QMenu::indicator::exclusive:checked:selected { image: url("../data/VisualizationPlatform/img/QMenu/indicator_exclusive_checked_selected.png"); }
+*/
+QMenuBar { border: 1px solid #394756; background: rgba(26, 29, 34, 70%); }
+QMenuBar::item { background: transparent; }
+
+QProgressBar { border-image: url("../data/VisualizationPlatform/img/QProgressBar/bg.png") 2px; border-width: 2px; text-align: center; }
+QProgressBar::disabled { color: #8d8d8d; }
+QProgressBar:horizontal { height: 16px; }
+QProgressBar:vertical { width: 16px; }
+QProgressBar::chunk { border-image: url("../data/VisualizationPlatform/img/QProgressBar/chunk.png") 1px; border-width: 1px; }
+
+QPushButton, QToolButton { height: 26px; border-width: 5px; padding: -5px 5; }
+QPushButton, QToolButton { border-image: url("../data/VisualizationPlatform/img/QPushButton/normal.png") 5px; }
+QPushButton:hover, QToolButton:hover { border-image: url("../data/VisualizationPlatform/img/QPushButton/hover.png") 5px; }
+QPushButton:pressed, QToolButton:pressed { border-image: url("../data/VisualizationPlatform/img/QPushButton/pressed.png") 5px; }
+QPushButton:checked, QToolButton:checked { border-image: url("../data/VisualizationPlatform/img/QPushButton/checked.png") 5px; color: #ffaa00; }
+QPushButton:disabled, QToolButton:disabled { border-image: url("../data/VisualizationPlatform/img/QPushButton/disabled.png") 5px; color: #8d8d8d; }
+
+QRadioButton::indicator { width: 16px; height: 16px; }
+QRadioButton::indicator:unchecked { image: url("../data/VisualizationPlatform/img/QRadioButton/unchecked_normal.png"); }
+QRadioButton::indicator:unchecked:hover { image: url("../data/VisualizationPlatform/img/QRadioButton/unchecked_hover.png"); }
+QRadioButton::indicator:unchecked:pressed { image: url("../data/VisualizationPlatform/img/QRadioButton/unchecked_pressed.png"); }
+QRadioButton::indicator:unchecked:disabled { image: url("../data/VisualizationPlatform/img/QRadioButton/unchecked_disabled.png"); }
+QRadioButton::indicator:checked { image: url("../data/VisualizationPlatform/img/QRadioButton/checked_normal.png"); }
+QRadioButton::indicator:checked:hover { image: url("../data/VisualizationPlatform/img/QRadioButton/checked_hover.png"); }
+QRadioButton::indicator:checked:pressed { image: url("../data/VisualizationPlatform/img/QRadioButton/checked_pressed.png"); }
+QRadioButton::indicator:checked:disabled { image: url("../data/VisualizationPlatform/img/QRadioButton/checked_disabled.png"); }
+
+QScrollArea { border: 1px solid #394756; background: transparent; }
+
+QScrollBar { background: #18242b; border: 1px solid #4e6780; }
+QScrollBar::add-page, QScrollBar::sub-page { background: transparent; }
+QScrollBar::handle { background: #5c7e9f; border: 1px solid #253849; }
+QScrollBar:horizontal { height: 12px; margin: 0px 11px; }
+QScrollBar::handle:horizontal { height: 10px; }
+QScrollBar:vertical { width: 12px; margin: 11px 0px; }
+QScrollBar::handle:vertical { width: 10px; min-height: 50px; }
+QScrollBar::add-line, QScrollBar::sub-line { border: 1px solid #4e6780; background: #263a4d; width: 10px; height: 10px; subcontrol-origin: margin; }
+QScrollBar::add-line:horizontal { subcontrol-position: right; }
+QScrollBar::sub-line:horizontal { subcontrol-position: left; }
+QScrollBar::add-line:vertical { subcontrol-position: bottom; }
+QScrollBar::sub-line:vertical { subcontrol-position: top; }
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal { width: 6px; height: 8px; }
+QScrollBar::left-arrow:horizontal { image: url("../data/VisualizationPlatform/img/QScrollBar/left-arrow.png"); }
+QScrollBar::right-arrow:horizontal { image: url("../data/VisualizationPlatform/img/QScrollBar/right-arrow.png"); }
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical { width: 8px; height: 6px; }
+QScrollBar::up-arrow:vertical { image: url("../data/VisualizationPlatform/img/QScrollBar/up-arrow.png"); }
+QScrollBar::down-arrow:vertical { image: url("../data/VisualizationPlatform/img/QScrollBar/down-arrow.png"); }
+
+QSlider::groove { background-color: #343a42; }
+QSlider::sub-page:horizontal { background-color: #294767; }
+QSlider::add-page:vertical { background-color: #294767; }
+
+QSlider::groove:horizontal { height: 4px; }
+QSlider::groove:vertical { width: 4px; }
+
+QSlider::handle:horizontal { width: 9px; height: 16px; margin: -6px 0;}
+QSlider::handle:horizontal { border-image: url("../data/VisualizationPlatform/img/QSlider/h_normal.png"); }
+QSlider::handle:horizontal:hover { border-image: url("../data/VisualizationPlatform/img/QSlider/h_hover.png"); }
+QSlider::handle:horizontal:pressed { border-image: url("../data/VisualizationPlatform/img/QSlider/h_pressed.png"); }
+QSlider::handle:horizontal:disabled { border-image: url("../data/VisualizationPlatform/img/QSlider/h_disabled.png"); }
+QSlider::handle:vertical { width: 16px; height: 9px; margin: 0 -6px;}
+QSlider::handle:vertical { border-image: url("../data/VisualizationPlatform/img/QSlider/v_normal.png"); }
+QSlider::handle:vertical:hover { border-image: url("../data/VisualizationPlatform/img/QSlider/v_hover.png"); }
+QSlider::handle:vertical:pressed { border-image: url("../data/VisualizationPlatform/img/QSlider/v_pressed.png"); }
+QSlider::handle:vertical:disabled { border-image: url("../data/VisualizationPlatform/img/QSlider/v_disabled.png"); }
+
+QSplitter::handle { background: transparent; }
+
+QStatusBar { border: 1px solid #394756; }
+QStatusBar::item { border-right: 1px solid #394756; }
+QStatusBar QSizeGrip { image: url("../data/VisualizationPlatform/img/QSizeGrip/sizegrip.png"); min-width: 7px; min-height: 7px; }
+
+QTableView { gridline-color: #394756; }
+QTableView QTableCornerButton::section { border-image: url("../data/VisualizationPlatform/img/QPushButton/normal.png"); }
+QTableView QTableCornerButton::section:hover { border-image: url("../data/VisualizationPlatform/img/QPushButton/hover.png"); }
+QTableView QTableCornerButton::section:pressed { border-image: url("../data/VisualizationPlatform/img/QPushButton/pressed.png"); }
+
+QTabWidget { background: transparent; border: none; }
+QTabWidget::pane { background: transparent; border: 1px solid #394756; }
+QTabWidget QTabBar::tab { min-width: 120px; min-height: 27px; }
+QTabWidget QTabBar::tab { border-image: url("../data/VisualizationPlatform/img/QTabWidget/tab/normal.png"); }
+QTabWidget QTabBar::tab:hover { border-image: url("../data/VisualizationPlatform/img/QTabWidget/tab/hover.png"); }
+QTabWidget QTabBar::tab:selected { border-image: url("../data/VisualizationPlatform/img/QTabWidget/tab/selected.png"); }
+QTabWidget QTabBar::tab:disabled { border-image: url("../data/VisualizationPlatform/img/QTabWidget/tab/disabled.png"); }
+
+QToolBar { border: 1px solid #394756; background: rgba(41, 43, 48, 33%); }
+QToolBar QToolButton { border-image: none; }
+QToolBar QToolButton:hover { border-image: url("../data/VisualizationPlatform/img/QToolBar/hover.png"); }
+QToolBar QToolButton:pressed { border-image: url("../data/VisualizationPlatform/img/QToolBar/pressed.png"); }
+QToolBar::separator:horizontal { width: 1px; border-image: url("../data/VisualizationPlatform/img/QToolBar/separator_v.png"); }
+QToolBar::separator:vertical { height: 1px; border-image: url("../data/VisualizationPlatform/img/QToolBar/separator_h.png"); }
+QToolBar::handle:horizontal { background-image: url("../data/VisualizationPlatform/img/QToolBar/handle_v.png"); width: 4px; background-repeat: repeat-y; }
+QToolBar::handle:vertical { background-image: url("../data/VisualizationPlatform/img/QToolBar/handle_h.png"); height: 4px; background-repeat: repeat-x; }
+
+QToolTip { border: 1px soild #535c67; background: rgba(43, 52, 64, 80%); }
+
+QTreeView::branch:has-siblings:!adjoins-item { border-image: url("../data/VisualizationPlatform/img/QTreeView/branch_vline.png"); }
+QTreeView::branch:has-siblings:adjoins-item { border-image: url("../data/VisualizationPlatform/img/QTreeView/branch_more.png"); }
+QTreeView::branch:!has-children:!has-siblings:adjoins-item { border-image: url("../data/VisualizationPlatform/img/QTreeView/branch_end.png"); }
+QTreeView::branch:has-children:closed { image: url("../data/VisualizationPlatform/img/QTreeView/branch_closed.png"); border-image: none; }
+QTreeView::branch:has-children:open { image: url("../data/VisualizationPlatform/img/QTreeView/branch_open.png"); border-image: none; }
+
+QCustomPlot { background: transparent; border: none; }
+
+QGLWidget { border-image: url("../data/VisualizationPlatform/img/bg.png"); }
+
+#BackgroundWidget { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/bg.png") 1px; border-width: 1px; padding: -1px; }
+#TitleWidget { min-height: 31px; max-height: 31px; }
+#TitleWidget { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/titleWidget_bg.png") 2px; border-width: 2px; padding: -2px; }
+#TitleLabel { padding-left: 6px; }
+#MinimizedBtn, #MaximizedBtn, #CloseBtn { height: 19px; border: 0; padding: 0;}
+#MinimizedBtn { min-width: 29px; max-width: 29px; }
+#MaximizedBtn { min-width: 30px; max-width: 30px; }
+#CloseBtn { min-width: 34px; max-width: 34px; margin-right: 1px; }
+#MinimizedBtn { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/minimizedBtn_normal.png"); }
+#MaximizedBtn { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/maximizedBtn_normal.png"); }
+#MaximizedBtn[Maximized="true"] { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/normalBtn_normal.png"); }
+#CloseBtn { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/closeBtn_normal.png"); }
+#MinimizedBtn:hover { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/minimizedBtn_hover.png"); }
+#MaximizedBtn:hover { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/maximizedBtn_hover.png"); }
+#MaximizedBtn[Maximized="true"]:hover { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/normalBtn_hover.png"); }
+#CloseBtn:hover { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/closeBtn_hover.png"); }
+#MinimizedBtn:pressed { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/minimizedBtn_pressed.png"); }
+#MaximizedBtn:pressed { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/maximizedBtn_pressed.png"); }
+#MaximizedBtn[Maximized="true"]:pressed { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/normalBtn_pressed.png"); }
+#CloseBtn:pressed { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/closeBtn_pressed.png"); }
+
+QDockWidget { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/bg.png") 1px; border-width: 1px; padding: -1px; }
+QDockWidget QWidget[DockedWidget = "true"] { margin-top: 10; }
+QDockWidget #IconLabel { min-width: 20; min-height: 25; margin-left: 6; image-position: center; background: transparent; }
+QDockWidget #FloatBtn { width: 17; height: 17; padding: 0; margin: 0; border: none; }
+QDockWidget #FloatBtn:checked { border-image: url("../data/VisualizationPlatform/img/QDockWidget/toDock_normal.png"); }
+QDockWidget #FloatBtn:checked:hover { border-image: url("../data/VisualizationPlatform/img/QDockWidget/toDock_hover.png"); }
+QDockWidget #FloatBtn:checked:pressed { border-image: url("../data/VisualizationPlatform/img/QDockWidget/toDock_pressed.png"); }
+QDockWidget #FloatBtn { border-image: url("../data/VisualizationPlatform/img/QDockWidget/toFloat_normal.png"); }
+QDockWidget #FloatBtn:hover { border-image: url("../data/VisualizationPlatform/img/QDockWidget/toFloat_hover.png"); }
+QDockWidget #FloatBtn:pressed { border-image: url("../data/VisualizationPlatform/img/QDockWidget/toFloat_pressed.png"); }
+QDockWidget > #TitleWidget > #CloseBtn { min-width: 17; max-width: 17; height: 17; padding: 0; margin: 0; margin-right: 6; border: none; }
+QDockWidget > #TitleWidget > #CloseBtn {border-image: url("../data/VisualizationPlatform/img/QDockWidget/close_normal.png"); }
+QDockWidget > #TitleWidget > #CloseBtn:hover { border-image: url("../data/VisualizationPlatform/img/QDockWidget/close_hover.png"); }
+QDockWidget > #TitleWidget > #CloseBtn:pressed { border-image: url("../data/VisualizationPlatform/img/QDockWidget/close_pressed.png"); }
+
+#SearchBtn { image: url("../data/VisualizationPlatform/img/icon/search.png"); image-position: center; }
+
+#SquareBtn { width: 36; height: 36; border: none; padding: 0; image-position: center; }
+#SquareBtn { border-image: url("../data/VisualizationPlatform/img/QPushButton/square/normal.png"); }
+#SquareBtn:hover { border-image: url("../data/VisualizationPlatform/img/QPushButton/square/hover.png"); }
+#SquareBtn:pressed { border-image: url("../data/VisualizationPlatform/img/QPushButton/square/pressed.png"); }
+#SquareBtn:checked { border-image: url("../data/VisualizationPlatform/img/QPushButton/square/checked.png"); }
+#SquareBtn:disabled { border-image: url("../data/VisualizationPlatform/img/QPushButton/square/disabled.png"); }
+
+#SelectFileBtn { border-image: none; }
+#PlayBtn { padding: 0; border: none; border-image: none; background: transparent; image: url("../data/VisualizationPlatform/img/player/play.png"); }
+#BackwardBtn { width: 17; height: 15; padding: 0; border: none; border-image: none; image: url("../data/VisualizationPlatform/img/player/backward.png"); }
+#ForwardBtn { width: 17; height: 15; padding: 0; border: none; border-image: none; image: url("../data/VisualizationPlatform/img/player/forward.png"); }
+
+#SeekSlider QSlider::groove:horizontal { height: 12; border-radius: 6; }
+#SeekSlider QSlider::groove:horizontal { background-color: #2f3133; }
+#SeekSlider QSlider::sub-page:horizontal { background-color: #5eba30; border-radius: 6; margin-left: 6; }
+#SeekSlider QSlider::handle:horizontal { width: 14px; height: 14px; margin: -1px 0;}
+#SeekSlider QSlider::handle:horizontal { border-image: url("../data/VisualizationPlatform/img/player/slider_handle.png"); }
+
+SelectFileDialog { border-image: url("../data/VisualizationPlatform/img/QCustomWidget/background.png") 1; border-width: 1; }
+
+#CameraBtn { image: url("../data/VisualizationPlatform/img/icon/camera.png"); color: #3c546c; padding: -5 0; }
+#OpenCameraBtn { image: url("../data/VisualizationPlatform/img/icon/close.png"); }
+#MoreCameraBtn { image: url("../data/VisualizationPlatform/img/icon/more.png"); }
+
+#DigitLabel { background-color: #02c6ff; min-width: 20; min-height: 28; }
+#CountLabel { border: 1 solid white; border-radius: 3; margin-left: 12; font-size: 12px; }
+
+#BarNameLabel { font-size: 14px; }
+NetDefense QProgressBar { border-image: none; background: transparent; text-align: right; margin-right: 30; max-height: 20; }
+NetDefense QProgressBar::chunk { border-image: none; background-color: #00c6ff; }
+
+AttackLegend #LegendIconLabel { max-height: 16; max-width: 16; }
+
+#SliderBtn { border-image: none; background: transparent; }
+
+QTabBar::close-button { image:url("../data/VisualizationPlatform/img/QTabWidget/close.png");}
+
+QGroupBox { margin: 0; border-top-width: 31; padding-top: -1; background: transparent;}
+QGroupBox { border-image: url("../data/VisualizationPlatform/img/QGroupBox/bg.png") 31 0 0 0; }
+QGroupBox::title { subcontrol-origin: margin; subcontrol-position: top left; background: transparent; border: none; min-height: 31; max-height: 31; left: 6; top: -1;}
+
+#DeleteBtn {border-image:url("../data/VisualizationPlatform/img/QPushButton/x_03.png"); max-width:16px; max-height:16px; padding:0; border-width:0;} 

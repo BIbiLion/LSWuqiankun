@@ -1,0 +1,18 @@
+#QWidget
+QWidget{color:white;font-family:"Î¢ÈíÑÅºÚ";font-size:14px;}
+
+#QCheckBox  QGroupBox  QHeaderView  QListView QTableView  QTreeView
+QCheckBox:disabled { color: #8d8d8d; }
+QCheckBox::indicator{width: 16px; height: 16px;}
+QCheckBox::indicatot::unchecked{image: url("./QCheckBox/unchecked_normal.png");}
+QCheckBox::indicatot::unchecked:hover{image: url("./QCheckBox/unchecked_hover.png");}
+QCheckBox::indicatot::unchecked:pressd{image: url("./QCheckBox/unchecked_press.png");}
+QCheckBox::indicatot::unchecked:disabled{image: url("./QCheckBox/unchecked_disabled.png");}
+QCheckBox::indicatot::checked{image: url("./QCheckBox/checked_normal.png");}
+QCheckBox::indicator:checked:hover{image: url("./QCheckBox/checked_hover.png");}
+QCheckBox::indicator:checked:pressed{image: url("./QCheckBox/checked_press.png");}
+QCheckBox::indicator:checked:disabled{image: url("./QCheckBox/checked_disabled.png");}
+QCheckBox::indicator:indeterminate{image: url("./QCheckBox/indeterminate_hover.png");}
+QCheckBox::indicator:indeterminate:hover{image: url("./QCheckBox/indeterminate_hover.png");}
+QCheckBox::indicator:indeterminate:pressed{image: url("./QCheckBox/indeterminate_hover.png");}
+QCheckBox::indicator:indeterminate:disabled{image: url("./QCheckBox/indeterminate_hover.png");}
